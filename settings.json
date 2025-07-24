@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Playwright",
+      "mcp__Sequential-thinking"
+    ],
+    "deny": []
+  },
+  "model": "sonnet",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run /home/yoda/.claude/hooks/pre_tool_use.py"
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/yoda/.claude/hooks/precompact_session_summary.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
