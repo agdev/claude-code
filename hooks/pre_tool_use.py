@@ -26,6 +26,8 @@ def is_safe_rm_path(path):
         r'^[\w\-_.]+$',      # dirname
         r'^\.next$',         # .next directory
         r'^\.next/$',        # .next/ directory
+        # Subdirectories within safe directories
+        r'^(node_modules|build|dist|target|\.next|\.nuxt|tmp|temp|cache|logs|\.cache|coverage|__pycache__|\.pytest_cache|\.mypy_cache|\.gradle)(/.*)?$',
     ]
     
     # Safe parent directory patterns (specific named directories only)
@@ -38,6 +40,8 @@ def is_safe_rm_path(path):
     
     # Safe absolute paths within user home directory
     safe_absolute_patterns = [
+        # Allow all operations under /home/yoda/Library/Projects
+        r'^/home/yoda/Library/Projects(/.*)?$',
         # Project-related directories within home
         rf'^{re.escape(user_home)}/[\w\-_.]+/.*/(node_modules|build|dist|target|\.gradle|\.next|\.nuxt|tmp|temp|cache|logs|\.cache|coverage|__pycache__|\.pytest_cache|\.mypy_cache)(/.*)?$',
         # Direct safe directories in home subdirectories
@@ -85,10 +89,108 @@ def is_safe_rm_path(path):
     
     return False
 
+def parse_compound_command(command):
+    """
+    Parse a compound shell command and return individual command segments.
+    Splits on shell operators (&&, ||, ;, |) while preserving quoted strings.
+    """
+    
+    # Handle simple cases first
+    if not any(op in command for op in ['&&', '||', ';', '|']):
+        return [command.strip()]
+    
+    segments = []
+    current_segment = ""
+    i = 0
+    in_quotes = False
+    quote_char = None
+    
+    while i < len(command):
+        char = command[i]
+        
+        # Handle quotes
+        if char in ['"', "'"] and (i == 0 or command[i-1] != '\\'):
+            if not in_quotes:
+                in_quotes = True
+                quote_char = char
+            elif char == quote_char:
+                in_quotes = False
+                quote_char = None
+        
+        # Check for operators only when not in quotes
+        if not in_quotes:
+            # Check for two-character operators first
+            if i < len(command) - 1:
+                two_char = command[i:i+2]
+                if two_char in ['&&', '||']:
+                    if current_segment.strip():
+                        segments.append(current_segment.strip())
+                    current_segment = ""
+                    i += 2
+                    continue
+            
+            # Check for single-character operators
+            if char in [';', '|']:
+                # Make sure it's not part of ||
+                if char == '|' and i < len(command) - 1 and command[i+1] == '|':
+                    pass  # Skip, will be handled by || above
+                elif char == '|' and i > 0 and command[i-1] == '|':
+                    pass  # Skip, already handled
+                else:
+                    if current_segment.strip():
+                        segments.append(current_segment.strip())
+                    current_segment = ""
+                    i += 1
+                    continue
+        
+        current_segment += char
+        i += 1
+    
+    if current_segment.strip():
+        segments.append(current_segment.strip())
+    
+    return segments
+
+def extract_rm_commands(command_segments):
+    """
+    Extract only the segments that contain rm commands.
+    Returns a list of rm command strings.
+    """
+    rm_commands = []
+    
+    for segment in command_segments:
+        # Check if this segment contains an rm command
+        # Use word boundary to avoid matching 'form', 'arm', etc.
+        if re.search(r'\brm\b', segment):
+            rm_commands.append(segment.strip())
+    
+    return rm_commands
+
 def is_dangerous_rm_command(command):
     """
     Detect dangerous rm commands using hybrid whitelist+blacklist approach.
     Blocks rm -rf unless all target paths are safe and none are dangerous.
+    Now handles compound commands properly.
+    """
+    # Parse compound command and extract only rm commands
+    command_segments = parse_compound_command(command)
+    rm_commands = extract_rm_commands(command_segments)
+    
+    # If no rm commands found, it's safe
+    if not rm_commands:
+        return False
+    
+    # Check each rm command individually
+    for rm_command in rm_commands:
+        if is_dangerous_single_rm_command(rm_command):
+            return True
+    
+    return False
+
+def is_dangerous_single_rm_command(command):
+    """
+    Check if a single rm command is dangerous.
+    This contains the original logic for checking individual rm commands.
     """
     # Normalize command by removing extra spaces and converting to lowercase
     normalized = ' '.join(command.lower().split())

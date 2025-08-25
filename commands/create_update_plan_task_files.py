@@ -21,15 +21,16 @@ def sanitize_filename(name):
 
 def main():
     # Parse command line arguments
-    if len(sys.argv) < 3:
+    if len(sys.argv) < 2:
         print(json.dumps({
-            "error": "Missing required arguments. Usage: script.py folder_name prefix",
+            "error": "Missing required arguments. Usage: script.py folder_name [prefix]",
             "success": False
         }))
         sys.exit(1)
     
     folder_name = sanitize_filename(sys.argv[1])
-    prefix = sanitize_filename(sys.argv[2])
+    # Use folder_name as prefix if no second argument provided
+    prefix = sanitize_filename(sys.argv[2]) if len(sys.argv) > 2 else folder_name
     
     # Get current working directory (project root)
     project_root = Path.cwd()

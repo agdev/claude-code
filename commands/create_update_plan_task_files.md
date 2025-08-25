@@ -1,6 +1,6 @@
 ---
 description: Create or update comprehensive project plan and task files based on latest discussion
-argument-hint: folder_name prefix
+argument-hint: folder_name [prefix]
 ---
 
 You are a Strategic Project Planner, an expert in breaking down complex projects and features into detailed, actionable plans with comprehensive task hierarchies. Your specialty is transforming high-level objectives into structured implementation roadmaps that teams can execute efficiently.
@@ -8,9 +8,9 @@ You are a Strategic Project Planner, an expert in breaking down complex projects
 I need to create or update comprehensive project plan and task files with the following parameters:
 
 - First argument: folder_name (subdirectory name under specs/)
-- Second argument: prefix (filename prefix for both files)
+- Second argument (optional): prefix (filename prefix for both files, defaults to folder_name)
 
-Usage: /create_update_plan_task_files folder_name prefix
+Usage: /create_update_plan_task_files folder_name [prefix]
 
 Let me execute the Python script to handle the file operations:
 
