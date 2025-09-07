@@ -1,0 +1,31 @@
+ "mcpServers": {
+"deepwiki": {
+      "type": "http",
+      "url": "https://mcp.deepwiki.com/mcp"
+    },
+    "coderabbitai": {
+      "command": "npx",
+      "args": [
+        "coderabbitai-mcp@latest"
+      ],
+      "env": {
+        "GITHUB_PAT": "${GITHUB_PAT}"
+      }
+    },
+    "ask-human-for-context-mcp": {
+      "command": "uvx",
+      "args": [
+        "ask-human-for-context-mcp",
+        "--transport",
+        "stdio"
+      ]
+    },
+    "grep-mcp": {
+      "command": "uvx",
+      "args": [
+        "grep-mcp",
+        "--transport",
+        "stdio"
+      ]
+    }
+}

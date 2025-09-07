@@ -153,16 +153,48 @@ def parse_compound_command(command):
 
 def extract_rm_commands(command_segments):
     """
-    Extract only the segments that contain rm commands.
+    Extract only the segments that contain dangerous rm commands.
+    Filters out safe subcommands like 'git rm', 'docker rm', etc.
     Returns a list of rm command strings.
     """
     rm_commands = []
     
+    # Safe parent commands that can have 'rm' as a subcommand
+    safe_parent_commands = ['git', 'docker', 'npm', 'yarn', 'cargo', 'apt', 'yum', 'brew', 'pip', 'conda']
+    
     for segment in command_segments:
         # Check if this segment contains an rm command
         # Use word boundary to avoid matching 'form', 'arm', etc.
-        if re.search(r'\brm\b', segment):
+        if not re.search(r'\brm\b', segment):
+            continue
+            
+        # Split the segment into tokens to check command structure
+        tokens = segment.strip().split()
+        if not tokens:
+            continue
+            
+        # Get the primary command (first non-flag token)
+        primary_command = tokens[0]
+        
+        # If primary command is 'rm', it's potentially dangerous
+        if primary_command == 'rm':
             rm_commands.append(segment.strip())
+        # If primary command is a safe tool with 'rm' subcommand, skip it
+        elif primary_command in safe_parent_commands:
+            continue  # Safe subcommand, don't add to rm_commands
+        # Check for other patterns where rm might appear dangerously
+        # This handles cases like: sudo rm, env VAR=val rm, etc.
+        else:
+            # Look for rm as a standalone command after other prefixes
+            # Split on common command separators and check each part
+            rm_found = False
+            for i, token in enumerate(tokens):
+                if token == 'rm' and (i == 0 or tokens[i-1] in ['sudo', 'env', 'exec', 'xargs', 'parallel']):
+                    rm_found = True
+                    break
+            
+            if rm_found:
+                rm_commands.append(segment.strip())
     
     return rm_commands
 
