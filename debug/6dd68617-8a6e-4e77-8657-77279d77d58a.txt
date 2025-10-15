@@ -1,0 +1,1043 @@
+[DEBUG] Watching for changes in setting files /home/yoda/.claude/settings.json, /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/.claude/settings.local.json...
+[DEBUG] Applying permission update: Adding 2 allow rule(s) to destination 'userSettings': ["mcp__Playwright","mcp__Sequential-thinking"]
+[DEBUG] Applying permission update: Adding 1 directory with destination 'cliArg': ["/home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/docs/references/burr"]
+[DEBUG] Applying permission update: Adding 1 directory with destination 'cliArg': ["/home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src"]
+[DEBUG] Applying permission update: Adding 1 directory with destination 'cliArg': ["/home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/docs/references/agno"]
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Creating shell snapshot for bash (/bin/bash)
+[DEBUG] Looking for shell config file: /home/yoda/.bashrc
+[DEBUG] Snapshots directory: /home/yoda/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /home/yoda/.claude/shell-snapshots/snapshot-bash-1760109164249-ts5q1s.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json.tmp.1232092.1760109164274
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json.tmp.1232092.1760109164274 to /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json
+[DEBUG] File /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json written atomically
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760109164436
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5708322 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760109164436 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/yoda/.claude/skills, project=/mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/.claude/skills
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Shell snapshot created successfully (3891 bytes)
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760109164839
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5708322 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760109164839 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760109164995
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5708322 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760109164995 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] MCP server "Playwright": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "Sequential-thinking": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "Context-7": Starting connection with timeout of 30000ms
+[ERROR] Failed to save config with lock: Error: Lock file is already being held
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760109165645
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5708322 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760109165645 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Executing hooks for SessionStart:startup
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760109166032
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5708217 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760109166032 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760109166236
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5708217 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760109166236 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] performStartupChecks called, ENABLE_PLUGINS=true
+[DEBUG] Trust not accepted for current directory - skipping plugin installations
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760109166520
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5708322 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760109166520 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[ERROR] MCP server "Sequential-thinking" Server stderr: Sequential Thinking MCP Server running on stdio
+[DEBUG] MCP server "Sequential-thinking": Successfully connected to undefined server in 3536ms
+[DEBUG] MCP server "Sequential-thinking": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"sequential-thinking-server","version":"0.2.0"}}
+[ERROR] MCP server "Context-7" Server stderr: Context7 Documentation MCP Server running on stdio
+[DEBUG] MCP server "Context-7": Successfully connected to undefined server in 3699ms
+[DEBUG] MCP server "Context-7": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"Context7","version":"1.0.21"}}
+[DEBUG] MCP server "Playwright": Successfully connected to stdio server in 4163ms
+[DEBUG] MCP server "Playwright": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"Playwright","version":"0.0.42"}}
+[DEBUG] MCP server "grep-mcp": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "grep-mcp": Successfully connected to undefined server in 1312ms
+[DEBUG] MCP server "grep-mcp": Connection established with capabilities: {"hasTools":true,"hasPrompts":true,"hasResources":true,"serverVersion":{"name":"grep-mcp","version":"1.17.0"}}
+[ERROR] MCP server "grep-mcp" Server stderr: Processing request of type ListToolsRequest
+Processing request of type ListPromptsRequest
+[ERROR] MCP server "grep-mcp" Server stderr: Processing request of type ListResourcesRequest
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Added snapshot for dec2e453-f00b-41bf-ab8e-bc9e9ade0352, tracking 0 files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[ERROR] SyntaxError: SyntaxError: Unexpected non-whitespace character after JSON at position 54
+    at JSON.parse (<anonymous>)
+    at file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:62:719
+    at Q (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:15093)
+    at ga2 (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:753:22219)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Read" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Read" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Executing hooks for PreToolUse:Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Glob" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:Glob
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Read" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Read" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Read" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760110069202
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5708322 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760110069202 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760110078196
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5708322 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760110078196 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: /home/yoda/.claude/hooks/stop_sound.sh with timeout 60000ms
+[DEBUG] Hook command completed with status 0: /home/yoda/.claude/hooks/stop_sound.sh
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760110080412
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5708322 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760110080412 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message 4d908d82-bc10-4adb-bb0a-48e2b7d34cc4
+[DEBUG] FileHistory: Added snapshot for 4d908d82-bc10-4adb-bb0a-48e2b7d34cc4, tracking 0 files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760110090442
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5708322 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760110090442 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: /home/yoda/.claude/hooks/stop_sound.sh with timeout 60000ms
+[DEBUG] Hook command completed with status 0: /home/yoda/.claude/hooks/stop_sound.sh
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760110092637
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5708322 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760110092637 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760110092783
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5708274 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760110092783 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760110092938
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5709307 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760110092938 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message 53e317ff-36c8-4091-9ef9-e2f988a76026
+[DEBUG] FileHistory: Added snapshot for 53e317ff-36c8-4091-9ef9-e2f988a76026, tracking 0 files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "TodoWrite" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json.tmp.1232092.1760110155595
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 836 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json.tmp.1232092.1760110155595 to /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json
+[DEBUG] File /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760110173040
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5709307 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760110173040 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Streaming aborted by user: Request was aborted.
+[ERROR] Error in non-streaming fallback: Request was aborted.
+[ERROR] Error: Error: Request was aborted.
+    at pc._createMessage (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:432:4515)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760110173182
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5709307 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760110173182 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760110173330
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5709210 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760110173330 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message f5bdd278-4fec-4658-956b-c95368a008cd
+[DEBUG] FileHistory: Added snapshot for f5bdd278-4fec-4658-956b-c95368a008cd, tracking 0 files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: ls -la "/home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat" 2>&1 || echo "Directory does not exist"
+[DEBUG] Bash tool description: Check if workflow-chat directory exists
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "TodoWrite" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json.tmp.1232092.1760110217062
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1082 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json.tmp.1232092.1760110217062 to /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json
+[DEBUG] File /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/actions.py
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/actions.py.tmp.1232092.1760110238213
+[DEBUG] Temp file written successfully, size: 4068 bytes
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/actions.py.tmp.1232092.1760110238213 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/actions.py
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/actions.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "TodoWrite" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json.tmp.1232092.1760110244712
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1084 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json.tmp.1232092.1760110244712 to /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json
+[DEBUG] File /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/config.py
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/config.py.tmp.1232092.1760110257740
+[DEBUG] Temp file written successfully, size: 1356 bytes
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/config.py.tmp.1232092.1760110257740 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/config.py
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/config.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "TodoWrite" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json.tmp.1232092.1760110265605
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1086 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json.tmp.1232092.1760110265605 to /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json
+[DEBUG] File /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760110283913
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5709210 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760110283913 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/graph.py
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/graph.py.tmp.1232092.1760110292169
+[DEBUG] Temp file written successfully, size: 5222 bytes
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/graph.py.tmp.1232092.1760110292169 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/graph.py
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/graph.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760110298088
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5709210 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760110298088 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "TodoWrite" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json.tmp.1232092.1760110301585
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1088 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json.tmp.1232092.1760110301585 to /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json
+[DEBUG] File /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/__init__.py
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/__init__.py.tmp.1232092.1760110313737
+[DEBUG] Temp file written successfully, size: 1049 bytes
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/__init__.py.tmp.1232092.1760110313737 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/__init__.py
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/workflow-chat/__init__.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "TodoWrite" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json.tmp.1232092.1760110321200
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1090 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json.tmp.1232092.1760110321200 to /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json
+[DEBUG] File /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Task
+[DEBUG] Executing hooks for PreToolUse:Task
+[DEBUG] Getting matching hook commands for PreToolUse with query: Task
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Task" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Read" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Read" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Read" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Read" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/chat_flow_demo.py.tmp.1232092.1760110401237
+[DEBUG] Temp file written successfully, size: 11299 bytes
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/chat_flow_demo.py.tmp.1232092.1760110401237 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/chat_flow_demo.py
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/chat_flow_demo.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Read" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: ls -la /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/
+[DEBUG] Bash tool description: List files in burr-flow directory
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Read" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: python3 -c "import sys; sys.path.insert(0, '/home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow'); import importlib; mod = importlib.import_module('workflow-chat'); print('Import successful')" 2>&1
+[DEBUG] Bash tool description: Test importing module with hyphen
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/chat_flow_demo.py.tmp.1232092.1760110475508
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 11495 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/chat_flow_demo.py.tmp.1232092.1760110475508 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/chat_flow_demo.py
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/chat_flow_demo.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: cd /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow && python3 -c "import sys; import importlib; workflow_chat = importlib.import_module('workflow-chat'); print('Import successful'); print('Available functions:', dir(workflow_chat))" 2>&1
+[DEBUG] Bash tool description: Verify workflow-chat module imports correctly
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/claude-playground/chat_flow_demo_README.md.tmp.1232092.1760110525891
+[DEBUG] Temp file written successfully, size: 7907 bytes
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/claude-playground/chat_flow_demo_README.md.tmp.1232092.1760110525891 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/claude-playground/chat_flow_demo_README.md
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/claude-playground/chat_flow_demo_README.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/run_chat_demo.sh.tmp.1232092.1760110539413
+[DEBUG] Temp file written successfully, size: 1997 bytes
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/run_chat_demo.sh.tmp.1232092.1760110539413 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/run_chat_demo.sh
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/run_chat_demo.sh written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: chmod +x /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/run_chat_demo.sh
+[DEBUG] Bash tool description: Make demo runner script executable
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/claude-playground/chat_flow_demo_summary.md.tmp.1232092.1760110602882
+[DEBUG] Temp file written successfully, size: 10520 bytes
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/claude-playground/chat_flow_demo_summary.md.tmp.1232092.1760110602882 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/claude-playground/chat_flow_demo_summary.md
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/claude-playground/chat_flow_demo_summary.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/claude-playground/QUICK_START.md.tmp.1232092.1760110629308
+[DEBUG] Temp file written successfully, size: 4216 bytes
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/claude-playground/QUICK_START.md.tmp.1232092.1760110629308 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/claude-playground/QUICK_START.md
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/claude-playground/QUICK_START.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: ls -lh /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/chat_flow_demo.py /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/run_chat_demo.sh
+[DEBUG] Bash tool description: Verify demo files exist
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: ls -lh /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/claude-playground/*.md
+[DEBUG] Bash tool description: Verify documentation files
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] Executing hooks for SubagentStop
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:Task
+[DEBUG] Getting matching hook commands for PostToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "TodoWrite" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json.tmp.1232092.1760110672030
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json.tmp.1232092.1760110672030 to /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json
+[DEBUG] File /home/yoda/.claude/todos/6dd68617-8a6e-4e77-8657-77279d77d58a-agent-6dd68617-8a6e-4e77-8657-77279d77d58a.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760110685127
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5709210 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760110685127 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: /home/yoda/.claude/hooks/stop_sound.sh with timeout 60000ms
+[DEBUG] Hook command completed with status 0: /home/yoda/.claude/hooks/stop_sound.sh
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760110687340
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5709210 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760110687340 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760110687532
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5709122 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760110687532 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+[DEBUG] Notification [/home/yoda/.claude/hooks/notification_sound.sh] completed with status 0
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] Getting matching hook commands for SessionEnd with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Cleaned up session snapshot: /home/yoda/.claude/shell-snapshots/snapshot-bash-1760109164249-ts5q1s.sh
+[DEBUG] MCP server "Playwright": Sending SIGINT to MCP server process
+[DEBUG] FileHistory: Making snapshot for message 3f63e1c9-3c24-4603-9d81-7368b655d01e
+[DEBUG] FileHistory: Added snapshot for 3f63e1c9-3c24-4603-9d81-7368b655d01e, tracking 4 files
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760110845723
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5709122 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760110845723 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760110845878
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5709122 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760110845878 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] MCP server "Playwright": SIGINT failed, sending SIGTERM to MCP server process
+[DEBUG] MCP server "grep-mcp": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "Playwright": MCP server process exited cleanly
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1232092.1760110846157
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5709546 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1232092.1760110846157 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically

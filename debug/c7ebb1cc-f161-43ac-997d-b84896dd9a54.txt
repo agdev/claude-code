@@ -1,0 +1,648 @@
+[DEBUG] Watching for changes in setting files /home/yoda/.claude/settings.json, /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/.claude/settings.local.json...
+[DEBUG] Applying permission update: Adding 2 allow rule(s) to destination 'userSettings': ["mcp__Playwright","mcp__Sequential-thinking"]
+[DEBUG] Applying permission update: Adding 1 directory with destination 'cliArg': ["/home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/docs"]
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Creating shell snapshot for bash (/bin/bash)
+[DEBUG] Looking for shell config file: /home/yoda/.bashrc
+[DEBUG] Snapshots directory: /home/yoda/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /home/yoda/.claude/shell-snapshots/snapshot-bash-1760088099299-km84sq.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json.tmp.444623.1760088099305
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json.tmp.444623.1760088099305 to /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json
+[DEBUG] File /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json written atomically
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/yoda/.claude/skills, project=/mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/.claude/skills
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Shell snapshot created successfully (3891 bytes)
+[DEBUG] Summarizing last 2 of 78 messages (~85519 tokens)
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.444623.1760088099607
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5706740 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.444623.1760088099607 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.444623.1760088099705
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5706740 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.444623.1760088099705 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] MCP server "Playwright": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "Sequential-thinking": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "Context-7": Starting connection with timeout of 30000ms
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.444623.1760088100217
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5706740 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.444623.1760088100217 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Executing hooks for SessionStart:startup
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.444623.1760088100410
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5706635 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.444623.1760088100410 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.444623.1760088100521
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5706635 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.444623.1760088100521 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] performStartupChecks called, ENABLE_PLUGINS=true
+[DEBUG] Trust not accepted for current directory - skipping plugin installations
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.444623.1760088100749
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5706740 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.444623.1760088100749 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] Summarizing last 2 of 359 messages (~0 tokens)
+[DEBUG] Summarizing last 6 of 35 messages (~141121 tokens)
+[ERROR] MCP server "Sequential-thinking" Server stderr: Sequential Thinking MCP Server running on stdio
+[DEBUG] MCP server "Sequential-thinking": Successfully connected to undefined server in 2697ms
+[DEBUG] MCP server "Sequential-thinking": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"sequential-thinking-server","version":"0.2.0"}}
+[ERROR] MCP server "Context-7" Server stderr: Context7 Documentation MCP Server running on stdio
+[DEBUG] MCP server "Context-7": Successfully connected to undefined server in 2767ms
+[DEBUG] MCP server "Context-7": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"Context7","version":"1.0.21"}}
+[DEBUG] MCP server "Playwright": Successfully connected to stdio server in 3011ms
+[DEBUG] MCP server "Playwright": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"Playwright","version":"0.0.42"}}
+[DEBUG] MCP server "grep-mcp": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "ide": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "ide": Successfully connected to ws-ide server in 14ms
+[DEBUG] MCP server "ide": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"Claude Code VSCode MCP","version":"2.0.13"}}
+[DEBUG] MCP server "grep-mcp": Successfully connected to undefined server in 995ms
+[DEBUG] MCP server "grep-mcp": Connection established with capabilities: {"hasTools":true,"hasPrompts":true,"hasResources":true,"serverVersion":{"name":"grep-mcp","version":"1.16.0"}}
+[ERROR] MCP server "grep-mcp" Server stderr: Processing request of type ListToolsRequest
+Processing request of type ListPromptsRequest
+[ERROR] MCP server "grep-mcp" Server stderr: Processing request of type ListResourcesRequest
+[DEBUG] Slash commands included in SlashCommand tool: /create_update_plan_task_files, /start-exec-plan-tasks
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] Applying permission update: Adding 1 directory with destination 'localSettings': ["/home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs"]
+[DEBUG] Persisting permission update: addDirectories to source 'localSettings'
+[DEBUG] Persisting 1 directory to localSettings
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/.claude/settings.local.json.tmp.444623.1760088340491
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 271 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/.claude/settings.local.json.tmp.444623.1760088340491 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/.claude/settings.local.json
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/.claude/settings.local.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] FileHistory: Added snapshot for 010be9f0-7aa8-4b50-8f7f-3acb0e17b1a0, tracking 0 files
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.444623.1760088340769
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5706674 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.444623.1760088340769 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message 0dbd46d5-8683-4bad-8880-82758c62bc1a
+[DEBUG] FileHistory: Added snapshot for 0dbd46d5-8683-4bad-8880-82758c62bc1a, tracking 0 files
+[DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+[DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 48ms
+[DEBUG] Slash commands included in SlashCommand tool: /create_update_plan_task_files, /start-exec-plan-tasks
+[ERROR] SyntaxError: SyntaxError: Unexpected token 'Y', "Yes, I und"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:62:719
+    at Q (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:15093)
+    at ga2 (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:753:22219)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "TodoWrite" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json.tmp.444623.1760088882505
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 656 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json.tmp.444623.1760088882505 to /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json
+[DEBUG] File /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Read" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 274ms
+[DEBUG] Slash commands included in SlashCommand tool: /create_update_plan_task_files, /start-exec-plan-tasks
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.444623.1760088902431
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5706674 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.444623.1760088902431 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "TodoWrite" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json.tmp.444623.1760088919669
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 658 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json.tmp.444623.1760088919669 to /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json
+[DEBUG] File /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 322ms
+[DEBUG] Slash commands included in SlashCommand tool: /create_update_plan_task_files, /start-exec-plan-tasks
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "TodoWrite" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json.tmp.444623.1760088960750
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 660 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json.tmp.444623.1760088960750 to /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json
+[DEBUG] File /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 23ms
+[DEBUG] FileHistory: Tracked file modification for /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/tags-instructions.json
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/tags-instructions.json.tmp.444623.1760088960978
+[DEBUG] Temp file written successfully, size: 8276 bytes
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/tags-instructions.json.tmp.444623.1760088960978 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/tags-instructions.json
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/tags-instructions.json written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 335ms
+[DEBUG] Slash commands included in SlashCommand tool: /create_update_plan_task_files, /start-exec-plan-tasks
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "TodoWrite" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json.tmp.444623.1760088979426
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 662 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json.tmp.444623.1760088979426 to /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json
+[DEBUG] File /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 13ms
+[DEBUG] FileHistory: Tracked file modification for /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/tags-ui.json
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/tags-ui.json.tmp.444623.1760088979616
+[DEBUG] Temp file written successfully, size: 3050 bytes
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/tags-ui.json.tmp.444623.1760088979616 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/tags-ui.json
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/tags-ui.json written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 361ms
+[DEBUG] Slash commands included in SlashCommand tool: /create_update_plan_task_files, /start-exec-plan-tasks
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "TodoWrite" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json.tmp.444623.1760088985457
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json.tmp.444623.1760088985457 to /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json
+[DEBUG] File /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 380ms
+[DEBUG] Slash commands included in SlashCommand tool: /create_update_plan_task_files, /start-exec-plan-tasks
+[DEBUG] Stream started - received first chunk
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: /home/yoda/.claude/hooks/stop_sound.sh with timeout 60000ms
+[DEBUG] Hook command completed with status 0: /home/yoda/.claude/hooks/stop_sound.sh
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.444623.1760089002746
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5707550 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.444623.1760089002746 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+[DEBUG] Notification [/home/yoda/.claude/hooks/notification_sound.sh] completed with status 0
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 317ms
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message f123543f-d291-4fdd-93e5-cc54f1935260
+[DEBUG] FileHistory: Added snapshot for f123543f-d291-4fdd-93e5-cc54f1935260, tracking 2 files
+[DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+[DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 46ms
+[DEBUG] Slash commands included in SlashCommand tool: /create_update_plan_task_files, /start-exec-plan-tasks
+[DEBUG] Stream started - received first chunk
+[ERROR] SyntaxError: SyntaxError: Unexpected non-whitespace character after JSON at position 65
+    at JSON.parse (<anonymous>)
+    at file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:62:719
+    at Q (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:15093)
+    at ga2 (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:753:22219)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.444623.1760097028385
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5707550 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.444623.1760097028385 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "TodoWrite" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json.tmp.444623.1760097168532
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 471 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json.tmp.444623.1760097168532 to /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json
+[DEBUG] File /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 10ms
+[DEBUG] FileHistory: Tracked file modification for /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md.tmp.444623.1760097168737
+[DEBUG] Temp file written successfully, size: 36188 bytes
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md.tmp.444623.1760097168737 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 426ms
+[DEBUG] Slash commands included in SlashCommand tool: /create_update_plan_task_files, /start-exec-plan-tasks
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "TodoWrite" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json.tmp.444623.1760097230940
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 707 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json.tmp.444623.1760097230940 to /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json
+[DEBUG] File /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 12ms
+[DEBUG] Reading through symlink: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md -> /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md.tmp.444623.1760097231187
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 36197 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md.tmp.444623.1760097231187 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 23ms
+[DEBUG] Reading through symlink: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md -> /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md.tmp.444623.1760097231543
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 36206 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md.tmp.444623.1760097231543 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 27ms
+[DEBUG] Reading through symlink: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md -> /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md.tmp.444623.1760097231955
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 36224 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md.tmp.444623.1760097231955 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 27ms
+[DEBUG] Reading through symlink: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md -> /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md.tmp.444623.1760097232376
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 36233 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md.tmp.444623.1760097232376 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 40ms
+[DEBUG] Reading through symlink: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md -> /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md.tmp.444623.1760097232845
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 36421 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md.tmp.444623.1760097232845 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/prompt-phases-knowledge.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 413ms
+[DEBUG] Slash commands included in SlashCommand tool: /create_update_plan_task_files, /start-exec-plan-tasks
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "TodoWrite" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json.tmp.444623.1760097239494
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json.tmp.444623.1760097239494 to /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json
+[DEBUG] File /home/yoda/.claude/todos/c7ebb1cc-f161-43ac-997d-b84896dd9a54-agent-c7ebb1cc-f161-43ac-997d-b84896dd9a54.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 450ms
+[DEBUG] Slash commands included in SlashCommand tool: /create_update_plan_task_files, /start-exec-plan-tasks
+[DEBUG] Stream started - received first chunk
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: /home/yoda/.claude/hooks/stop_sound.sh with timeout 60000ms
+[DEBUG] Hook command completed with status 0: /home/yoda/.claude/hooks/stop_sound.sh
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.444623.1760097260929
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5707835 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.444623.1760097260929 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+[DEBUG] Notification [/home/yoda/.claude/hooks/notification_sound.sh] completed with status 0
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] Getting matching hook commands for SessionEnd with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Cleaned up session snapshot: /home/yoda/.claude/shell-snapshots/snapshot-bash-1760088099299-km84sq.sh
+[DEBUG] MCP server "Playwright": Sending SIGINT to MCP server process
+[DEBUG] FileHistory: Making snapshot for message bda8eef3-6609-4e55-825e-98503f8344b9
+[DEBUG] FileHistory: Added snapshot for bda8eef3-6609-4e55-825e-98503f8344b9, tracking 3 files
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.444623.1760105693468
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5708401 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.444623.1760105693468 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] MCP server "Playwright": SIGINT failed, sending SIGTERM to MCP server process
+[DEBUG] MCP server "Playwright": Cleanup timeout reached, stopping process monitoring
+[ERROR] Failed to save config with lock: Error: Lock file is already being held
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.444623.1760105693875
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5708820 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.444623.1760105693875 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically

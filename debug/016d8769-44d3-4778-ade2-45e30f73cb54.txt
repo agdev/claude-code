@@ -1,0 +1,1024 @@
+[DEBUG] Watching for changes in setting files /home/yoda/.claude/settings.json, /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/.claude/settings.local.json...
+[DEBUG] Applying permission update: Adding 2 allow rule(s) to destination 'userSettings': ["mcp__Playwright","mcp__Sequential-thinking"]
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Creating shell snapshot for bash (/bin/bash)
+[DEBUG] Looking for shell config file: /home/yoda/.bashrc
+[DEBUG] Snapshots directory: /home/yoda/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /home/yoda/.claude/shell-snapshots/snapshot-bash-1759935792382-0a6qo8.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/016d8769-44d3-4778-ade2-45e30f73cb54-agent-016d8769-44d3-4778-ade2-45e30f73cb54.json.tmp.1014598.1759935792387
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /home/yoda/.claude/todos/016d8769-44d3-4778-ade2-45e30f73cb54-agent-016d8769-44d3-4778-ade2-45e30f73cb54.json.tmp.1014598.1759935792387 to /home/yoda/.claude/todos/016d8769-44d3-4778-ade2-45e30f73cb54-agent-016d8769-44d3-4778-ade2-45e30f73cb54.json
+[DEBUG] File /home/yoda/.claude/todos/016d8769-44d3-4778-ade2-45e30f73cb54-agent-016d8769-44d3-4778-ade2-45e30f73cb54.json written atomically
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/yoda/.claude/skills, project=/mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/.claude/skills
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Shell snapshot created successfully (3891 bytes)
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1014598.1759935792678
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5705886 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1014598.1759935792678 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] MCP server "Playwright": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "Sequential-thinking": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "Context-7": Starting connection with timeout of 30000ms
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1014598.1759935793707
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5705886 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1014598.1759935793707 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[ERROR] MCP server "Sequential-thinking" Server stderr: Sequential Thinking MCP Server running on stdio
+[DEBUG] MCP server "Sequential-thinking": Successfully connected to undefined server in 2221ms
+[DEBUG] MCP server "Sequential-thinking": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"sequential-thinking-server","version":"0.2.0"}}
+[ERROR] MCP server "Context-7" Server stderr: Context7 Documentation MCP Server running on stdio
+[DEBUG] MCP server "Context-7": Successfully connected to undefined server in 2321ms
+[DEBUG] MCP server "Context-7": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"Context7","version":"1.0.21"}}
+[DEBUG] MCP server "Playwright": Successfully connected to stdio server in 2438ms
+[DEBUG] MCP server "Playwright": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"Playwright","version":"0.0.41"}}
+[DEBUG] MCP server "grep-mcp": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "grep-mcp": Successfully connected to undefined server in 586ms
+[DEBUG] MCP server "grep-mcp": Connection established with capabilities: {"hasTools":true,"hasPrompts":true,"hasResources":true,"serverVersion":{"name":"grep-mcp","version":"1.16.0"}}
+[ERROR] MCP server "grep-mcp" Server stderr: Processing request of type ListToolsRequest
+Processing request of type ListPromptsRequest
+[ERROR] MCP server "grep-mcp" Server stderr: Processing request of type ListResourcesRequest
+[DEBUG] FileHistory: Copied backup c0f4da693c15c1b4@v1 from session 04f1a0c9-54e0-4eab-a6e6-9a0936466a11 to 016d8769-44d3-4778-ade2-45e30f73cb54
+[DEBUG] FileHistory: Copied backup c0f4da693c15c1b4@v2 from session 04f1a0c9-54e0-4eab-a6e6-9a0936466a11 to 016d8769-44d3-4778-ade2-45e30f73cb54
+[DEBUG] FileHistory: Copied backup c0f4da693c15c1b4@v3 from session 04f1a0c9-54e0-4eab-a6e6-9a0936466a11 to 016d8769-44d3-4778-ade2-45e30f73cb54
+[DEBUG] FileHistory: Copied backup fcb55a2ee4e39197@v2 from session 04f1a0c9-54e0-4eab-a6e6-9a0936466a11 to 016d8769-44d3-4778-ade2-45e30f73cb54
+[DEBUG] FileHistory: Copied backup 450c212770c1dea0@v2 from session 04f1a0c9-54e0-4eab-a6e6-9a0936466a11 to 016d8769-44d3-4778-ade2-45e30f73cb54
+[DEBUG] FileHistory: Copied backup e53b11bff81e6c8a@v2 from session 04f1a0c9-54e0-4eab-a6e6-9a0936466a11 to 016d8769-44d3-4778-ade2-45e30f73cb54
+[DEBUG] Executing hooks for SessionStart:resume
+[DEBUG] Getting matching hook commands for SessionStart with query: resume
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "resume" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1014598.1759935800547
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5705781 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1014598.1759935800547 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1014598.1759935800641
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5705781 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1014598.1759935800641 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] performStartupChecks called, ENABLE_PLUGINS=undefined
+[DEBUG] Skipping plugin installations - ENABLE_PLUGINS not set
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1014598.1759935800859
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5705886 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1014598.1759935800859 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message 0af583c2-e971-467a-83a8-53b84f245f7b
+[DEBUG] FileHistory: Added snapshot for 0af583c2-e971-467a-83a8-53b84f245f7b, tracking 5 files
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1014598.1759935888394
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5705577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1014598.1759935888394 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Read" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Read" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: ls -la /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/docs/
+[DEBUG] Bash tool description: Check if docs/rules directory exists
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: mkdir -p ../../docs/rules
+[DEBUG] Bash tool description: Create docs/rules directory
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: mv src/fastapi/fastapi.md ../../docs/rules/fastapi.md
+[DEBUG] Bash tool description: Move fastapi.md to docs/rules
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: ls -la ../../docs/rules/
+[DEBUG] Bash tool description: Verify file was moved
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/CLAUDE.md
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/CLAUDE.md.tmp.1014598.1759935953494
+[DEBUG] Temp file written successfully, size: 6655 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/CLAUDE.md.tmp.1014598.1759935953494 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/CLAUDE.md
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/CLAUDE.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Read" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: ls -la src/fastapi/
+[DEBUG] Bash tool description: Verify fastapi directory structure
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Reading through symlink: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md -> /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md.tmp.1014598.1759935973560
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1871 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md.tmp.1014598.1759935973560 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Reading through symlink: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md -> /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md.tmp.1014598.1759935973869
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 2301 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md.tmp.1014598.1759935973869 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: tree -L 3 -I '__pycache__|*.pyc|.venv' ../../docs/rules/ && echo "---" && tree -L 2 -I '__pycache__|*.pyc|.venv' src/
+[DEBUG] Bash tool description: Verify final directory structure
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+    at CK (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2218:1218)
+    at file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2218:946
+    at Array.map (<anonymous>)
+    at hX (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2218:937)
+    at WOB (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2218:12993)
+    at EC (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1014598.1759936004816
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5705577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1014598.1759936004816 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: /home/yoda/.claude/hooks/stop_sound.sh with timeout 60000ms
+[DEBUG] Hook command completed with status 0: /home/yoda/.claude/hooks/stop_sound.sh
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1014598.1759936007020
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5705577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1014598.1759936007020 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+[DEBUG] Notification [/home/yoda/.claude/hooks/notification_sound.sh] completed with status 0
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message 5c8ef49b-8c42-4b6d-94af-27872852b98e
+[DEBUG] FileHistory: Missing tracked file: src/fastapi/fastapi.md
+[DEBUG] FileHistory: Added snapshot for 5c8ef49b-8c42-4b6d-94af-27872852b98e, tracking 6 files
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1014598.1759936289214
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5705447 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1014598.1759936289214 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: cd src/fastapi && mkdir -p core api/v1/endpoints schemas middleware
+[DEBUG] Bash tool description: Create directory structure for FastAPI module
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: ls -la src/fastapi/
+[DEBUG] Bash tool description: Verify directory structure created
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: pwd
+[DEBUG] Bash tool description: Check current directory
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: mkdir -p core api/v1/endpoints schemas middleware
+[DEBUG] Bash tool description: Create FastAPI directory structure
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: tree -L 3 -I '__pycache__|*.pyc|.venv'
+[DEBUG] Bash tool description: View created directory structure
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/main.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/main.py.tmp.1014598.1759936357411
+[DEBUG] Temp file written successfully, size: 1973 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/main.py.tmp.1014598.1759936357411 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/main.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/main.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/__init__.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/__init__.py.tmp.1014598.1759936357690
+[DEBUG] Temp file written successfully, size: 169 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/__init__.py.tmp.1014598.1759936357690 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/__init__.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/__init__.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/config.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/config.py.tmp.1014598.1759936358009
+[DEBUG] Temp file written successfully, size: 2079 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/config.py.tmp.1014598.1759936358009 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/config.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/config.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/security.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/security.py.tmp.1014598.1759936358581
+[DEBUG] Temp file written successfully, size: 4080 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/security.py.tmp.1014598.1759936358581 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/security.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/security.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/dependencies.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/dependencies.py.tmp.1014598.1759936358904
+[DEBUG] Temp file written successfully, size: 2356 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/dependencies.py.tmp.1014598.1759936358904 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/dependencies.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/core/dependencies.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/__init__.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/__init__.py.tmp.1014598.1759936422858
+[DEBUG] Temp file written successfully, size: 101 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/__init__.py.tmp.1014598.1759936422858 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/__init__.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/__init__.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/__init__.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/__init__.py.tmp.1014598.1759936423191
+[DEBUG] Temp file written successfully, size: 99 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/__init__.py.tmp.1014598.1759936423191 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/__init__.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/__init__.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/router.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/router.py.tmp.1014598.1759936423589
+[DEBUG] Temp file written successfully, size: 600 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/router.py.tmp.1014598.1759936423589 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/router.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/router.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/__init__.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/__init__.py.tmp.1014598.1759936424451
+[DEBUG] Temp file written successfully, size: 125 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/__init__.py.tmp.1014598.1759936424451 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/__init__.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/__init__.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/health.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/health.py.tmp.1014598.1759936424816
+[DEBUG] Temp file written successfully, size: 2121 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/health.py.tmp.1014598.1759936424816 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/health.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/health.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/simulation.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/simulation.py.tmp.1014598.1759936425172
+[DEBUG] Temp file written successfully, size: 6745 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/simulation.py.tmp.1014598.1759936425172 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/simulation.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/simulation.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/session.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/session.py.tmp.1014598.1759936425580
+[DEBUG] Temp file written successfully, size: 6221 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/session.py.tmp.1014598.1759936425580 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/session.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/api/v1/endpoints/session.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/schemas/__init__.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/schemas/__init__.py.tmp.1014598.1759936467471
+[DEBUG] Temp file written successfully, size: 112 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/schemas/__init__.py.tmp.1014598.1759936467471 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/schemas/__init__.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/schemas/__init__.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/schemas/simulation.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/schemas/simulation.py.tmp.1014598.1759936467853
+[DEBUG] Temp file written successfully, size: 5707 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/schemas/simulation.py.tmp.1014598.1759936467853 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/schemas/simulation.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/schemas/simulation.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/schemas/session.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/schemas/session.py.tmp.1014598.1759936468206
+[DEBUG] Temp file written successfully, size: 3510 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/schemas/session.py.tmp.1014598.1759936468206 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/schemas/session.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/schemas/session.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/middleware/__init__.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/middleware/__init__.py.tmp.1014598.1759936468635
+[DEBUG] Temp file written successfully, size: 121 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/middleware/__init__.py.tmp.1014598.1759936468635 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/middleware/__init__.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/middleware/__init__.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/middleware/request_id.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/middleware/request_id.py.tmp.1014598.1759936469044
+[DEBUG] Temp file written successfully, size: 1711 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/middleware/request_id.py.tmp.1014598.1759936469044 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/middleware/request_id.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/middleware/request_id.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: tree -I '__pycache__|*.pyc|.venv|logs' -L 4
+[DEBUG] Bash tool description: View complete FastAPI structure
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 2: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook stderr: BLOCKED: Access to .env files containing sensitive data is prohibited
+Use .env.sample for template files instead
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Hook denied tool use for Write
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/.env.sample
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/.env.sample.tmp.1014598.1759936490534
+[DEBUG] Temp file written successfully, size: 698 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/.env.sample.tmp.1014598.1759936490534 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/.env.sample
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/.env.sample written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: sample
+    at file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: find . -name "*.py" -type f | wc -l && echo "Python files created"
+[DEBUG] Bash tool description: Count Python files created
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/README.md
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/README.md.tmp.1014598.1759936514170
+[DEBUG] Temp file written successfully, size: 3889 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/README.md.tmp.1014598.1759936514170 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/README.md
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/README.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: tree -I '__pycache__|*.pyc|.venv|logs' -L 3 .
+[DEBUG] Bash tool description: Final structure verification
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: ls -lah .env.sample && echo "---" && wc -l *.py core/*.py api/v1/*.py api/v1/endpoints/*.py schemas/*.py middleware/*.py 2>/dev/null | tail -1
+[DEBUG] Bash tool description: Verify files and count total lines
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+    at CK (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2218:1218)
+    at file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2218:946
+    at Array.map (<anonymous>)
+    at hX (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2218:937)
+    at WOB (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2218:12993)
+    at EC (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1014598.1759936550946
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5705447 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1014598.1759936550946 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: /home/yoda/.claude/hooks/stop_sound.sh with timeout 60000ms
+[DEBUG] Hook command completed with status 0: /home/yoda/.claude/hooks/stop_sound.sh
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.1014598.1759936553186
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5705447 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.1014598.1759936553186 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+[DEBUG] Notification [/home/yoda/.claude/hooks/notification_sound.sh] completed with status 0
+[DEBUG] Hook output does not start with {, treating as plain text

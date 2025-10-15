@@ -1,0 +1,915 @@
+[DEBUG] Watching for changes in setting files /home/yoda/.claude/settings.json, /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/.claude/settings.local.json...
+[DEBUG] Applying permission update: Adding 2 allow rule(s) to destination 'userSettings': ["mcp__Playwright","mcp__Sequential-thinking"]
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Creating shell snapshot for bash (/bin/bash)
+[DEBUG] Looking for shell config file: /home/yoda/.bashrc
+[DEBUG] Snapshots directory: /home/yoda/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /home/yoda/.claude/shell-snapshots/snapshot-bash-1759926741245-om5r79.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/04f1a0c9-54e0-4eab-a6e6-9a0936466a11-agent-04f1a0c9-54e0-4eab-a6e6-9a0936466a11.json.tmp.711285.1759926741251
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /home/yoda/.claude/todos/04f1a0c9-54e0-4eab-a6e6-9a0936466a11-agent-04f1a0c9-54e0-4eab-a6e6-9a0936466a11.json.tmp.711285.1759926741251 to /home/yoda/.claude/todos/04f1a0c9-54e0-4eab-a6e6-9a0936466a11-agent-04f1a0c9-54e0-4eab-a6e6-9a0936466a11.json
+[DEBUG] File /home/yoda/.claude/todos/04f1a0c9-54e0-4eab-a6e6-9a0936466a11-agent-04f1a0c9-54e0-4eab-a6e6-9a0936466a11.json written atomically
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/yoda/.claude/skills, project=/mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/.claude/skills
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Shell snapshot created successfully (3891 bytes)
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.711285.1759926741585
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5704874 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.711285.1759926741585 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] MCP server "Playwright": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "Sequential-thinking": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "Context-7": Starting connection with timeout of 30000ms
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.711285.1759926742088
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5704874 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.711285.1759926742088 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Executing hooks for SessionStart:startup
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.711285.1759926742302
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5704769 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.711285.1759926742302 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.711285.1759926742415
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5704769 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.711285.1759926742415 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] performStartupChecks called, ENABLE_PLUGINS=undefined
+[DEBUG] Skipping plugin installations - ENABLE_PLUGINS not set
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.711285.1759926742620
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5704874 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.711285.1759926742620 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[ERROR] MCP server "Sequential-thinking" Server stderr: Sequential Thinking MCP Server running on stdio
+[DEBUG] MCP server "Sequential-thinking": Successfully connected to undefined server in 2770ms
+[DEBUG] MCP server "Sequential-thinking": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"sequential-thinking-server","version":"0.2.0"}}
+[ERROR] MCP server "Context-7" Server stderr: Context7 Documentation MCP Server running on stdio
+[DEBUG] MCP server "Context-7": Successfully connected to undefined server in 2836ms
+[DEBUG] MCP server "Context-7": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"Context7","version":"1.0.21"}}
+[DEBUG] MCP server "Playwright": Successfully connected to stdio server in 3064ms
+[DEBUG] MCP server "Playwright": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"Playwright","version":"0.0.41"}}
+[DEBUG] MCP server "grep-mcp": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "ide": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "ide": Successfully connected to ws-ide server in 11ms
+[DEBUG] MCP server "ide": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"Claude Code VSCode MCP","version":"2.0.10"}}
+[DEBUG] MCP server "grep-mcp": Successfully connected to undefined server in 1092ms
+[DEBUG] MCP server "grep-mcp": Connection established with capabilities: {"hasTools":true,"hasPrompts":true,"hasResources":true,"serverVersion":{"name":"grep-mcp","version":"1.16.0"}}
+[ERROR] MCP server "grep-mcp" Server stderr: Processing request of type ListToolsRequest
+[ERROR] MCP server "grep-mcp" Server stderr: Processing request of type ListPromptsRequest
+[ERROR] MCP server "grep-mcp" Server stderr: Processing request of type ListResourcesRequest
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Added snapshot for b9eb8b63-3f39-4874-8aa2-e79c7370896f, tracking 0 files
+[DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.711285.1759926790985
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5704813 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.711285.1759926790985 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 216ms
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Read" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: find /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend -type f -name "*.py" -o -type f -name "*.toml" -o -type f -name "*.lock" -o -type f -name "*.md" | head -50
+[DEBUG] Bash tool description: Find Python and config files in backend
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: tree -L 3 -I '__pycache__|*.pyc|.venv' /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend
+[DEBUG] Bash tool description: Show backend directory tree structure
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 201ms
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[ERROR] MaxFileReadTokenExceededError: MaxFileReadTokenExceededError: File content (55060 tokens) exceeds maximum allowed tokens (25000). Please use offset and limit parameters to read specific portions of the file, or use the GrepTool to search for specific content.
+    at Ys2 (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:1846:400)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.call (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:1841:1006)
+    at async YO (file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:1846:3205)
+    at async file:///home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:3277:1339
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 6ms
+[DEBUG] Reading through symlink: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md -> /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md
+[DEBUG] FileHistory: Tracked file modification for /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md.tmp.711285.1759926814196
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1711 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md.tmp.711285.1759926814196 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 254ms
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.711285.1759926824508
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5704813 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.711285.1759926824508 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: /home/yoda/.claude/hooks/stop_sound.sh with timeout 60000ms
+[DEBUG] Hook command completed with status 0: /home/yoda/.claude/hooks/stop_sound.sh
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.711285.1759926826687
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5704813 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.711285.1759926826687 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 266ms
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message a3893bbd-0500-4bf7-a526-8f9ab118f2fd
+[DEBUG] FileHistory: Added snapshot for a3893bbd-0500-4bf7-a526-8f9ab118f2fd, tracking 1 files
+[DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.711285.1759926984008
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5704933 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.711285.1759926984008 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 190ms
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: ls -la src/
+[DEBUG] Bash tool description: List contents of src directory
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: test -d src/agents && echo "agents exists" || echo "agents does not exist"
+[DEBUG] Bash tool description: Check if agents directory exists
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: test -d src/workflow && echo "workflow exists" || echo "workflow does not exist"
+[DEBUG] Bash tool description: Check if workflow directory exists
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: test -d src/fastapi && echo "fastapi exists" || echo "fastapi does not exist"
+[DEBUG] Bash tool description: Check if fastapi directory exists
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 200ms
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: ls -la src/agents/ && echo "---" && ls -la src/workflow/ && echo "---" && ls -la src/fastapi/
+[DEBUG] Bash tool description: List contents of all three directories
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 193ms
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 11ms
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/agents/__init__.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/agents/__init__.py.tmp.711285.1759927015487
+[DEBUG] Temp file written successfully, size: 158 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/agents/__init__.py.tmp.711285.1759927015487 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/agents/__init__.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/agents/__init__.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 39ms
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/workflow/__init__.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/workflow/__init__.py.tmp.711285.1759927015733
+[DEBUG] Temp file written successfully, size: 202 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/workflow/__init__.py.tmp.711285.1759927015733 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/workflow/__init__.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/workflow/__init__.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 36ms
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/__init__.py
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/__init__.py.tmp.711285.1759927016040
+[DEBUG] Temp file written successfully, size: 179 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/__init__.py.tmp.711285.1759927016040 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/__init__.py
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/__init__.py written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 293ms
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: ls -la src/agents/ && echo "---" && ls -la src/workflow/ && echo "---" && ls -la src/fastapi/
+[DEBUG] Bash tool description: Verify __init__.py files were created
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 270ms
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 8ms
+[DEBUG] Reading through symlink: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md -> /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md
+[DEBUG] Writing to temp file: /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md.tmp.711285.1759927031998
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1865 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md.tmp.711285.1759927031998 to /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md
+[DEBUG] File /home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/CLAUDE.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 313ms
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.711285.1759927047683
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5704933 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.711285.1759927047683 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: /home/yoda/.claude/hooks/stop_sound.sh with timeout 60000ms
+[DEBUG] Hook command completed with status 0: /home/yoda/.claude/hooks/stop_sound.sh
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.711285.1759927049892
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5704933 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.711285.1759927049892 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+[DEBUG] Notification [/home/yoda/.claude/hooks/notification_sound.sh] completed with status 0
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' failed after 0s: Not connected
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message a841d0c7-b9f8-427c-9efb-31543926a56a
+[DEBUG] FileHistory: Added snapshot for a841d0c7-b9f8-427c-9efb-31543926a56a, tracking 4 files
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.711285.1759930940379
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5705162 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.711285.1759930940379 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Task
+[DEBUG] Executing hooks for PreToolUse:Task
+[DEBUG] Getting matching hook commands for PreToolUse with query: Task
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Task" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: ListMcpResourcesTool
+[DEBUG] Executing hooks for PreToolUse:ListMcpResourcesTool
+[DEBUG] Getting matching hook commands for PreToolUse with query: ListMcpResourcesTool
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "ListMcpResourcesTool" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: WebSearch
+[DEBUG] Executing hooks for PreToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "WebSearch" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: WebSearch
+[DEBUG] Executing hooks for PreToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "WebSearch" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: WebSearch
+[DEBUG] Executing hooks for PreToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "WebSearch" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: WebSearch
+[DEBUG] Executing hooks for PreToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "WebSearch" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:ListMcpResourcesTool
+[DEBUG] Getting matching hook commands for PostToolUse with query: ListMcpResourcesTool
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "ListMcpResourcesTool" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Executing hooks for PostToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: WebSearch
+[DEBUG] Executing hooks for PreToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "WebSearch" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: WebSearch
+[DEBUG] Executing hooks for PreToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "WebSearch" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: WebSearch
+[DEBUG] Executing hooks for PreToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "WebSearch" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: WebSearch
+[DEBUG] Executing hooks for PreToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "WebSearch" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: WebSearch
+[DEBUG] Executing hooks for PreToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "WebSearch" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Executing hooks for PostToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: WebFetch
+[DEBUG] Executing hooks for PreToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebFetch
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "WebFetch" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: WebFetch
+[DEBUG] Executing hooks for PreToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebFetch
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "WebFetch" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: WebFetch
+[DEBUG] Executing hooks for PreToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebFetch
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "WebFetch" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: WebFetch
+[DEBUG] Executing hooks for PreToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebFetch
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "WebFetch" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebFetch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebFetch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebFetch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebFetch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: WebFetch
+[DEBUG] Executing hooks for PreToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebFetch
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "WebFetch" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: WebFetch
+[DEBUG] Executing hooks for PreToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebFetch
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "WebFetch" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: WebFetch
+[DEBUG] Executing hooks for PreToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebFetch
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "WebFetch" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Executing hooks for PostToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebFetch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebFetch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebFetch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: WebSearch
+[DEBUG] Executing hooks for PreToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "WebSearch" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: WebSearch
+[DEBUG] Executing hooks for PreToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "WebSearch" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: WebSearch
+[DEBUG] Executing hooks for PreToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "WebSearch" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Executing hooks for PostToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Bash tool invoked with command: pwd
+[DEBUG] Bash tool description: Get current working directory
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] Executing hooks for SubagentStop
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:Task
+[DEBUG] Getting matching hook commands for PostToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' failed after 0s: Not connected
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: uv run /home/yoda/.claude/hooks/pre_tool_use.py with timeout 60000ms
+[DEBUG] Hook command completed with status 0: uv run /home/yoda/.claude/hooks/pre_tool_use.py
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' failed after 0s: Not connected
+[DEBUG] FileHistory: Tracked file modification for /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/fastapi.md
+[DEBUG] Writing to temp file: /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/fastapi.md.tmp.711285.1759931385995
+[DEBUG] Temp file written successfully, size: 33771 bytes
+[DEBUG] Renaming /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/fastapi.md.tmp.711285.1759931385995 to /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/fastapi.md
+[DEBUG] File /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/Simulations/service-now/backend/src/fastapi/fastapi.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' failed after 0s: Not connected
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Slash commands included in SlashCommand tool: /start-exec-plan-tasks, /create_update_plan_task_files
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.711285.1759931400229
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5705886 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.711285.1759931400229 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: /home/yoda/.claude/hooks/stop_sound.sh with timeout 60000ms
+[DEBUG] Hook command completed with status 0: /home/yoda/.claude/hooks/stop_sound.sh
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.711285.1759931402447
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5705886 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.711285.1759931402447 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+[DEBUG] Notification [/home/yoda/.claude/hooks/notification_sound.sh] completed with status 0
+[DEBUG] Hook output does not start with {, treating as plain text

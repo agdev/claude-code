@@ -1,0 +1,62 @@
+[DEBUG] Watching for changes in setting files /home/yoda/.claude/settings.json, /mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/.claude/settings.local.json...
+[DEBUG] Applying permission update: Adding 2 allow rule(s) to destination 'userSettings': ["mcp__Playwright","mcp__Sequential-thinking"]
+[DEBUG] Applying permission update: Adding 1 directory with destination 'cliArg': ["/home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/docs/references/burr"]
+[DEBUG] Applying permission update: Adding 1 directory with destination 'cliArg': ["/home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/POC/backned-src"]
+[DEBUG] Applying permission update: Adding 1 directory with destination 'cliArg': ["/home/yoda/Library/Projects/NIIT/NIIT-Simulation-System/Simulations/docs/references/agno"]
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Creating shell snapshot for bash (/bin/bash)
+[DEBUG] Looking for shell config file: /home/yoda/.bashrc
+[DEBUG] Snapshots directory: /home/yoda/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /home/yoda/.claude/shell-snapshots/snapshot-bash-1760085673688-f77vic.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /home/yoda/.claude/todos/a579af0e-21cb-4433-9f8e-2d9a95237ce3-agent-a579af0e-21cb-4433-9f8e-2d9a95237ce3.json.tmp.365871.1760085673693
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /home/yoda/.claude/todos/a579af0e-21cb-4433-9f8e-2d9a95237ce3-agent-a579af0e-21cb-4433-9f8e-2d9a95237ce3.json.tmp.365871.1760085673693 to /home/yoda/.claude/todos/a579af0e-21cb-4433-9f8e-2d9a95237ce3-agent-a579af0e-21cb-4433-9f8e-2d9a95237ce3.json
+[DEBUG] File /home/yoda/.claude/todos/a579af0e-21cb-4433-9f8e-2d9a95237ce3-agent-a579af0e-21cb-4433-9f8e-2d9a95237ce3.json written atomically
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/home/yoda/.nvm/versions/node/v20.14.0/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/yoda/.claude/skills, project=/mnt/3b92ea25-2e45-41c8-97d3-58aa8141755e/Videos/Projects/NIIT/NIIT-Simulation-System/POC/backned-src/burr-flow/.claude/skills
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Shell snapshot created successfully (3891 bytes)
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.365871.1760085674005
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5706678 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.365871.1760085674005 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.365871.1760085674141
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5706678 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.365871.1760085674141 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.365871.1760085674272
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5706678 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.365871.1760085674272 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.365871.1760085674395
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5706740 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.365871.1760085674395 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] MCP server "Playwright": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "Sequential-thinking": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "Context-7": Starting connection with timeout of 30000ms
+[DEBUG] Writing to temp file: /home/yoda/.claude.json.tmp.365871.1760085674902
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5706740 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yoda/.claude.json.tmp.365871.1760085674902 to /home/yoda/.claude.json
+[DEBUG] File /home/yoda/.claude.json written atomically
+[DEBUG] Executing hooks for SessionStart:resume
+[DEBUG] Getting matching hook commands for SessionStart with query: resume
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "resume" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute

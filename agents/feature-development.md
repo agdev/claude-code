@@ -1,5 +1,5 @@
 ---
-name: feature-development
+name: feature-desing-plan-orchestrator
 description: Orchestrates researcher and feature-designer agents to design and plan feature implementation with comprehensive research and user-focused design
 model: opus
 ---
