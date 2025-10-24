@@ -89,6 +89,27 @@ def is_safe_rm_path(path):
     
     return False
 
+def contains_git_directory(paths):
+    """
+    Check if any path references a .git directory.
+    Returns True if any path contains .git directory reference.
+    """
+    git_patterns = [
+        r'^\.git$',              # Exact .git directory
+        r'^\.git/$',             # .git/ with trailing slash
+        r'^\.git/.*$',           # Any path within .git/
+        r'^.*/\.git$',           # Any path ending in .git
+        r'^.*/\.git/.*$',        # Any .git directory in subdirectories
+    ]
+
+    for path in paths:
+        path = path.strip().strip('"\'')  # Remove quotes and whitespace
+        for pattern in git_patterns:
+            if re.match(pattern, path):
+                return True
+
+    return False
+
 def parse_compound_command(command):
     """
     Parse a compound shell command and return individual command segments.
@@ -244,7 +265,12 @@ def is_dangerous_single_rm_command(command):
     except ValueError:
         # If shlex fails, fall back to simple split
         paths = path_part.split() if path_part else []
-    
+
+    # Check for .git directory deletion first (with specific error message)
+    if contains_git_directory(paths):
+        print("BLOCKED: Attempting to delete .git directory - this would destroy the project's version control history", file=sys.stderr)
+        return True
+
     # Always dangerous patterns (override whitelist)
     always_dangerous_patterns = [
         r'^/$',              # Root directory

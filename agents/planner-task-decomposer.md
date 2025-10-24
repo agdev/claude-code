@@ -1,7 +1,7 @@
 ---
 name: planner-task-decomposer
 description: MUST BE USED for breaking down complex projects and features into comprehensive plans with detailed task hierarchies. Creates dual-file structure (strategic plan + execution tasks) in specs/ folder. Handles both initial planning and iterative updates. Self-aware agent that detects existing files and preserves completed work. Examples: "Create plan for user authentication", "Break down payment system with prefix payments", "Update the api-redesign plan with new requirements"
-model: sonnet
+model: opus
 color: green
 ---
 

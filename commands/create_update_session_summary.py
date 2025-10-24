@@ -20,12 +20,26 @@ def get_git_branch():
     """Get current git branch name if in a git repository."""
     try:
         result = subprocess.run(
-            ['git', 'branch', '--show-current'], 
-            capture_output=True, 
-            text=True, 
+            ['git', 'branch', '--show-current'],
+            capture_output=True,
+            text=True,
             check=True
         )
         return result.stdout.strip()
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        return None
+
+
+def get_git_root():
+    """Get git repository root directory."""
+    try:
+        result = subprocess.run(
+            ['git', 'rev-parse', '--show-toplevel'],
+            capture_output=True,
+            text=True,
+            check=True
+        )
+        return Path(result.stdout.strip())
     except (subprocess.CalledProcessError, FileNotFoundError):
         return None
 
@@ -74,8 +88,9 @@ def main():
         else:
             session_name = "session"
     
-    # Get current working directory (project root)
-    project_root = Path.cwd()
+    # Get project root - prefer git root, fallback to cwd
+    git_root = get_git_root()
+    project_root = git_root if git_root else Path.cwd()
     sessions_dir = project_root / "sessions"
     
     # Create sessions directory if it doesn't exist
