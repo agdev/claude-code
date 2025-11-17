@@ -1,7 +1,7 @@
 I need to create or update a session summary file with the following parameters:
 
 - First argument (optional): Session name (e.g., "database-integration")
-- Default location: ./sessions/ (at the project root where command is executed)
+- Default location: ./claude-sessions/ (at the project root where command is executed)
 
 Usage: /create_update_session_summary [session_name]
 

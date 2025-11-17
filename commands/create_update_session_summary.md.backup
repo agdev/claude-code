@@ -1,7 +1,7 @@
 I need to create or update a session summary file with the following parameters:
 
 - First argument (optional): Session name (e.g., "database-integration")
-- Default location: ./sessions/ (at the project root where command is executed)
+- Default location: ./claude-sessions/ (at the project root where command is executed)
 
 Usage: /create_update_session_summary [session_name]
 
@@ -10,8 +10,8 @@ Steps:
 1. Parse optional session name argument
 2. If no session name provided, derive from context (e.g., git branch name)
 3. Create the filename format: {session_name}_session_summary_{current_date}.md where current_date is in YYYYMMDD_HHMM format
-4. Use ./sessions as the target directory (relative to current working directory)
-5. Ensure the sessions directory exists
+4. Use ./claude-sessions as the target directory (relative to current working directory)
+5. Ensure the claude-sessions directory exists
 6. Check if the file already exists
 7. If the file exists, read its current content and update it with new session information
 8. If the file doesn't exist, create a new one with a detailed session summary template
@@ -50,7 +50,7 @@ fi
 
 # Get current working directory (project root)
 project_root=$(pwd)
-target_directory="${project_root}/sessions"
+target_directory="${project_root}/claude-sessions"
 
 echo "=== SESSION SUMMARY CREATION ==="
 echo "Project root: $project_root"
@@ -103,8 +103,8 @@ else
     fi
     
     echo "✓ File created successfully at: $filepath"
-    echo "File location: ./sessions/$filename (relative to project root)"
+    echo "File location: ./claude-sessions/$filename (relative to project root)"
 fi
 ```
 
-Now I'll create or update the session summary with detailed information about the current session. The file will be placed in the ./sessions directory at the project root.
+Now I'll create or update the session summary with detailed information about the current session. The file will be placed in the ./claude-sessions directory at the project root.
