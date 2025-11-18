@@ -88,9 +88,8 @@ def main():
         else:
             session_name = "session"
     
-    # Get project root - prefer git root, fallback to cwd
-    git_root = get_git_root()
-    project_root = git_root if git_root else Path.cwd()
+    # Get project root - use current working directory
+    project_root = Path.cwd()
     sessions_dir = project_root / "claude-sessions"
     
     # Create sessions directory if it doesn't exist
