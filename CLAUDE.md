@@ -1,39 +1,67 @@
-# CLAUDE.md
+# Model usage
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+## Planning mode
 
-## Repository Structure
+Opus when available
 
-This is a minimal repository focused on command rules and task management guidelines. The main components are:
+## Execution mode
 
-- `command/` - Contains command-specific rules and guidelines in MDC format
-- `LICENSE` - MIT license file
+Sonnet
 
-## Task List Management Guidelines
+## Project Structure
 
-This repository follows specific task list management practices defined in `command/task-lists.mdc`:
+- Place all test files and snapshots in 'claude-code-test-ground' folder at the root of the project
+- If 'claude-code-test-ground' folder does not exist, create it first
+- When making code changes: create backup file of code before making changes and move it to 'claude-backup-files' folder at root directory
+- If 'claude-backup-files' folder does not exist, create it first
 
-### Task List Creation
-- Create task lists in markdown files (preferably `TASKS.md` or descriptive feature names)
-- Structure with sections: Completed Tasks, In Progress Tasks, Future Tasks, Implementation Plan
-- Include a "Relevant Files" section with file paths and descriptions
+## Documentation Guidelines
 
-### Task List Maintenance
-- Mark completed tasks by changing `[ ]` to `[x]`
-- Keep the "Relevant Files" section updated with accurate paths and descriptions
-- Add implementation details for complex features
-- Update task lists after implementing significant components
+### NEVER Proactively Create Documentation
+- **NEVER** create documentation files (*.md) or README files unless explicitly requested by the user
+- Only create documentation when user specifically asks for it
+- Ask for clarification if documentation need is unclear
 
-### AI Workflow
-When working on features:
-1. Check existing task list to see which task to implement next
-2. Implement the task
-3. Update the task list to reflect progress
-4. Mark completed tasks with `[x]`
-5. Add newly discovered tasks during implementation
+### Plan-Based Execution Reports
+When implementing plan by executing tasks based on plan and task files:
+- Save all reports, phase completion summaries, and deliverables in the **same folder where plan and task files are located**
+- If plan/task files are not in a specific folder, follow the documentation structure below
 
-## Development Notes
+### Documentation Structure (claude-code-docs/)
 
-- This repository uses MDC (Markdown Command) format for command rules
-- No build tools, package managers, or testing frameworks are currently configured
-- The repository is initialized with git but contains minimal content
+When creating documentation files at user's request:
+
+#### Active Development Guides (`claude-code-docs/active-guides/`)
+Place ongoing reference material in appropriate subcategory:
+- `active-guides/setup/` - Setup and configuration guides
+- `active-guides/reference/` - API and technical references
+- `active-guides/testing/` - Testing documentation
+
+#### Session Deliverables (`claude-code-docs/phase-deliverables/`)
+Place project-specific outputs and phase completion summaries here:
+- Phase completion summaries
+- Verification reports
+- Project-specific analysis documents
+
+#### File Naming Conventions
+- Use descriptive UPPERCASE filenames: `JWT_HELPER_QUICK_REFERENCE.md`
+- Include "Last Updated" dates in document headers
+- Cross-reference related documentation
+- Update claude-code-docs/README.md when adding new files
+
+#### Documentation Lifecycle
+1. **Create** - New docs in appropriate active-guides/ or phase-deliverables/ folder
+2. **Maintain** - Update docs as systems evolve
+3. **Archive** - Move superseded docs to `.claude-archive/claude-code-docs/` using `git mv`
+4. **Reference** - Link to archived docs for historical context
+
+#### Related Documentation
+- `docs/` - Project-wide documentation (architecture, APIs, design patterns)
+- `server/docs/` - Backend API documentation
+- `client/docs/` - Frontend component documentation
+- `.claude-archive/` - Historical/superseded documentation
+
+## Design Principles
+
+- Keep code as simple as possible, do not over engineer. Simplicity always wins
+- Do not commit anything without my explicit instruction
