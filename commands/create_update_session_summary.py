@@ -30,6 +30,33 @@ def get_git_branch():
         return None
 
 
+def find_claude_project_root(start_path=None):
+    """
+    Walk up directory tree to find .claude directory (Claude Code project root).
+    Returns the directory containing .claude/, or None if not found.
+    """
+    if start_path is None:
+        start_path = Path.cwd()
+    else:
+        start_path = Path(start_path)
+
+    current = start_path.resolve()
+
+    # Walk up until we find .claude or reach filesystem root
+    while current != current.parent:
+        claude_dir = current / '.claude'
+        if claude_dir.exists() and claude_dir.is_dir():
+            return current
+        current = current.parent
+
+    # Check root directory too
+    claude_dir = current / '.claude'
+    if claude_dir.exists() and claude_dir.is_dir():
+        return current
+
+    return None
+
+
 def get_git_root():
     """Get git repository root directory."""
     try:
@@ -88,8 +115,11 @@ def main():
         else:
             session_name = "session"
     
-    # Get project root - use current working directory
-    project_root = Path.cwd()
+    # Get project root - find .claude directory, fallback to cwd
+    project_root = find_claude_project_root()
+    if project_root is None:
+        # No .claude directory found, use current working directory
+        project_root = Path.cwd()
     sessions_dir = project_root / "claude-sessions"
     
     # Create sessions directory if it doesn't exist
