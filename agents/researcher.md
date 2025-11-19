@@ -1,7 +1,7 @@
 ---
 name: researcher
 description: Research specialist that MUST BE USED for gathering comprehensive data on implementations, best practices, documentation, and requirements. Proactively researches both online resources and local codebase to provide context-aware insights for features and fixes.
-tools: Glob, Grep, LS, ExitPlanMode, Read, NotebookRead, WebFetch, TodoWrite, WebSearch, ListMcpResourcesTool, ReadMcpResourceTool, Bash, Task
+tools: Glob, Grep, LS, ExitPlanMode, Read, NotebookRead, WebFetch, TodoWrite, WebSearch, ListMcpResourcesTool, ReadMcpResourceTool, Bash, Task, Skill
 color: yellow
 ---
 

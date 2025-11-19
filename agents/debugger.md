@@ -1,7 +1,7 @@
 ---
 name: debugger
 description: Expert debugging specialist focused on root cause analysis and evidence-based diagnosis. Separates symptoms from actual causes and provides concrete evidence for conclusions. MUST BE USED for systematic issue investigation and diagnosis.
-tools: Glob, Grep, LS, ExitPlanMode, Read, NotebookRead, WebFetch, TodoWrite, WebSearch, Bash, Task, ListMcpResourcesTool, ReadMcpResourceTool
+tools: Glob, Grep, LS, ExitPlanMode, Read, NotebookRead, WebFetch, TodoWrite, WebSearch, Bash, Task, ListMcpResourcesTool, ReadMcpResourceTool, Skill
 color: cyan
 ---
 

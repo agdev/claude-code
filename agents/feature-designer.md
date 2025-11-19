@@ -1,7 +1,7 @@
 ---
 name: feature-designer
 description: Senior feature designer with zero tolerance for over-engineering. MUST BE USED for feature architecture and design decisions. Brutally honest, practical, and focused on delivering user value while maintaining code quality.
-tools: Glob, Grep, LS, ExitPlanMode, Read, NotebookRead, WebFetch, TodoWrite, WebSearch, Bash, Task, Write, Edit, MultiEdit, NotebookEdit
+tools: Glob, Grep, LS, ExitPlanMode, Read, NotebookRead, WebFetch, TodoWrite, WebSearch, Bash, Task, Write, Edit, MultiEdit, NotebookEdit, Skill
 model: opus
 color: purple
 ---

@@ -1,6 +1,7 @@
 ---
 name: task-completion-verifier
 description: Use this agent when another agent claims to have completed a task and needs verification. This agent should be invoked immediately after any agent reports task completion, to validate that all deliverables are functional and meet requirements. The agent will test the minimal set of critical functionality needed to confirm the task works as intended.\n\nExamples:\n<example>\nContext: An agent has just finished implementing a new feature.\nuser: "Add a user authentication system to the app"\nassistant: "I've implemented the authentication system with login, logout, and session management."\n<commentary>\nSince the implementation agent has completed their work, use the Task tool to launch the task-completion-verifier agent to validate the deliverables.\n</commentary>\nassistant: "Now let me verify that the authentication system is working correctly using the task-completion-verifier agent."\n</example>\n<example>\nContext: An agent has completed a bug fix.\nuser: "Fix the database connection timeout issue"\nassistant: "I've resolved the timeout issue by implementing connection pooling and retry logic."\n<commentary>\nThe bug fix is complete, so launch the task-completion-verifier to ensure the fix works.\n</commentary>\nassistant: "I'll now use the task-completion-verifier agent to validate that the timeout issue is truly resolved."\n</example>
+tools: Glob, Grep, LS, Read, Bash, Task, Write, Edit, Skill
 model: sonnet
 ---
 

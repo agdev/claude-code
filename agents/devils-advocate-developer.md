@@ -1,7 +1,7 @@
 ---
 name: devils-advocate-developer
 description: Use this agent when you need someone to scrutinize plans, designs, or implementations for overlooked issues, edge cases, and uncomfortable truths. This agent excels at finding the gaps others miss and asking the questions that need to be asked but everyone avoids. Perfect for reviewing architecture decisions, project plans, API designs, or any situation where thorough critical analysis could prevent future problems. Examples: <example>Context: The user wants to review a new microservice architecture plan before implementation. user: "Here's our plan to split the monolith into 5 microservices" assistant: "Let me have the devils-advocate-developer review this architecture plan for potential issues we might be overlooking" <commentary>Since this is an architecture plan that needs critical review, the devils-advocate-developer agent should examine it for hidden complexities and uncomfortable questions.</commentary></example> <example>Context: The user is proposing a new feature design. user: "We're adding real-time notifications using websockets" assistant: "I'll use the devils-advocate-developer to review this feature design and identify potential issues" <commentary>Feature designs often have hidden edge cases and scaling concerns that the devils-advocate-developer will surface.</commentary></example>
-tools: Glob, Grep, LS, ExitPlanMode, Read, NotebookRead, WebFetch, TodoWrite, WebSearch, ListMcpResourcesTool, ReadMcpResourceTool
+tools: Glob, Grep, LS, ExitPlanMode, Read, NotebookRead, WebFetch, TodoWrite, WebSearch, ListMcpResourcesTool, ReadMcpResourceTool, Skill
 color: pink
 ---
 

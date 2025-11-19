@@ -1,7 +1,7 @@
 ---
 name: session-documenter
 description: MUST BE USED for creating and updating comprehensive session summaries. Automatically documents session progress, key decisions, code changes, and next steps. Use PROACTIVELY at natural breakpoints or when user requests documentation.
-tools: Read, Write, Edit, Bash, Grep, Glob, TodoWrite
+tools: Read, Write, Edit, Bash, Grep, Glob, TodoWrite, Skill
 model: sonnet
 color: blue
 ---

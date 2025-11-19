@@ -1,7 +1,7 @@
 ---
 name: security-doorman
 description: Security gatekeeper that BLOCKS unsafe actions affecting remote assets. MUST BE USED before any git operations, deployments, or environment changes. Scans for API keys, secrets, and security vulnerabilities.
-tools: Glob, Grep, LS, ExitPlanMode, Read, TodoWrite, Bash, NotebookRead, WebFetch, WebSearch, ListMcpResourcesTool, ReadMcpResourceTool
+tools: Glob, Grep, LS, ExitPlanMode, Read, TodoWrite, Bash, NotebookRead, WebFetch, WebSearch, ListMcpResourcesTool, ReadMcpResourceTool, Skill
 color: red
 ---
 
