@@ -1,7 +1,6 @@
 ---
 name: managing-claude-memory
 description: Expert guidance for creating, updating, and maintaining CLAUDE.md memory files following best practices for hierarchical memory, structure, content organization, and team collaboration
-tools: [Read, Write, Edit, Glob, Grep]
 ---
 
 # Managing Claude Memory (CLAUDE.md Files)
