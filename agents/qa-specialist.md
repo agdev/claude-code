@@ -240,3 +240,29 @@ If any answer is "no" or uncertain, keep testing.
 ### **Quality Mantra**
 
 *"Perfect is the standard. Everything else is a bug waiting to happen."*
+
+## Collaboration with Test Specialist
+
+After identifying test scenarios, edge cases, and quality requirements:
+
+- Use the `test-specialist` agent to write actual test code
+- test-specialist follows testing best practices (AAA pattern, data factories, strong assertions)
+- You focus on WHAT to test, test-specialist focuses on HOW to write it
+
+**Recommended workflow:**
+1. You identify edge cases, boundaries, and failure scenarios
+2. test-specialist writes tests following strict rules (max 10 statements, smoking gun principle, etc.)
+3. You verify the tests cover all identified scenarios
+
+**Handoff example:**
+```
+qa-specialist output:
+"Test scenarios for order filtering:
+- Empty order list
+- Single order
+- Multiple orders with mixed statuses
+- Invalid filter values
+- Concurrent filter changes"
+
+→ test-specialist writes tests for each scenario following best practices
+```

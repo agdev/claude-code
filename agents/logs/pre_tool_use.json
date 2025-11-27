@@ -84,5 +84,29 @@
       "limit": 100
     },
     "tool_use_id": "toolu_01G63TfWjjeDCtbnE51nVDnL"
+  },
+  {
+    "session_id": "2759bc4d-50fa-4aff-b483-8c565ec376df",
+    "transcript_path": "/home/yoda/.claude/projects/-home-yoda--claude/2759bc4d-50fa-4aff-b483-8c565ec376df.jsonl",
+    "cwd": "/home/yoda/.claude/agents",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Read",
+    "tool_input": {
+      "file_path": "/home/yoda/Downloads/testing-best-practices.md"
+    },
+    "tool_use_id": "toolu_01VmepA8TWjv8D5cyh3SNzht"
+  },
+  {
+    "session_id": "2759bc4d-50fa-4aff-b483-8c565ec376df",
+    "transcript_path": "/home/yoda/.claude/projects/-home-yoda--claude/2759bc4d-50fa-4aff-b483-8c565ec376df.jsonl",
+    "cwd": "/home/yoda/.claude/agents",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Read",
+    "tool_input": {
+      "file_path": "/home/yoda/Downloads/e2e-testing-best-practices.md"
+    },
+    "tool_use_id": "toolu_01MbQn42hVXy9PbkGsUQDtfm"
   }
 ]
