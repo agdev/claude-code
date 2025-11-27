@@ -47,6 +47,7 @@ Choose options more likely to fail. Picking user role? Use least privileged one.
 
 - **A.1** Title pattern: `When {scenario}, then {expectation}`
 - **A.3** Max 10 statements (multi-line expressions count as one)
+- **A.4** Reference arranged data directly in assertions - don't duplicate values (use `activeOrder.id` not `'123'`)
 - **A.5** Three phases required: Arrange, Act, Assert (with line breaks between)
 - **A.10** Max 3 assertions per test
 - **A.13** Totally flat - no try-catch, loops, comments, console.log
@@ -140,6 +141,44 @@ For React Testing Library, Playwright component tests, Storybook:
 - **G.12** Pre-seed only metadata (countries, currencies). Create test-specific records in each test
 - **G.14** Each test acts on its own records only - never share test data
 - **G.18** Test cascading deletes/updates behavior
+
+## Section H - Fake Timers
+
+For testing debounce, throttle, cache TTL, polling, setTimeout/setInterval logic.
+
+**Detailed guide:** See [references/fake-timers.md](references/fake-timers.md) for patterns and anti-patterns.
+
+### Core Rules
+
+- **H.1** Setup/teardown per test: `beforeEach(() => vi.useFakeTimers())`, `afterEach(() => vi.useRealTimers())`
+- **H.3** Advance timers BEFORE awaiting promises (promise hangs if you await first)
+- **H.5** Use `runAllTimersAsync()` when timer count is unknown
+- **H.7** For rejected promises: use `rejects` matcher OR real timers with short delays
+- **H.9** Never use fake timers for simple async/await without timer logic
+
+### Quick Pattern
+
+```typescript
+// GOOD: Start promise, advance time, then await
+const promise = functionWithTimeout();
+await vi.advanceTimersByTimeAsync(1000);
+const result = await promise;
+
+// BAD: Await immediately (hangs forever - timers frozen)
+const result = await functionWithTimeout(); // ❌ Never completes!
+```
+
+### Error Testing Pattern
+
+```typescript
+// For rejected promise tests - use rejects matcher
+await expect(handler.execute(mockFn)).rejects.toThrow('fail');
+
+// OR use real timers with short delays
+vi.useRealTimers();
+const config = { maxRetries: 2, delay: 1 }; // 1ms delay
+await expect(retryWithBackoff(mockFn, config)).rejects.toThrow('fail');
+```
 
 ## Section I - What to Test
 

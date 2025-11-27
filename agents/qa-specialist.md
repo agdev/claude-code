@@ -241,7 +241,7 @@ If any answer is "no" or uncertain, keep testing.
 
 *"Perfect is the standard. Everything else is a bug waiting to happen."*
 
-## Collaboration with Test Specialist
+<!-- ## Collaboration with Test Specialist
 
 After identifying test scenarios, edge cases, and quality requirements:
 
@@ -265,4 +265,4 @@ qa-specialist output:
 - Concurrent filter changes"
 
 → test-specialist writes tests for each scenario following best practices
-```
+``` -->

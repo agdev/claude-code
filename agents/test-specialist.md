@@ -165,7 +165,7 @@ User: "Help me test the order filtering feature"
 6. Self-contained (no shared state)
 
 **Key Sections:**
-- A: Structure, B: Logic, C: Data, D: Assertions, E: Mocking, F: DOM, G: Database
+- A: Structure, B: Logic, C: Data, D: Assertions, E: Mocking, F: DOM, G: Database, H: Fake Timers
 
 ### E2E (testing-e2e skill)
 
