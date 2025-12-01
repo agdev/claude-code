@@ -65,3 +65,22 @@ Place project-specific outputs and phase completion summaries here:
 
 - Keep code as simple as possible, do not over engineer. Simplicity always wins
 - Do not commit anything without my explicit instruction
+- Do not defer tasks for effeciency under any circumstances
+
+## Git Merge Workflow
+
+When merging branches:
+1. **Always fetch before merge** - Run `git fetch origin` first
+2. **Use remote refs, not local** - Merge `origin/branch-name` instead of local `branch-name`
+3. **Check for conflicts first** - Use `git merge --no-commit --no-ff origin/branch-name` to test
+4. **Verify with `git diff --cached --stat`** - Review what will be merged before committing
+
+Example workflow:
+```bash
+git fetch origin
+git merge --no-commit --no-ff origin/feature-branch  # test for conflicts
+git diff --cached --stat                              # review changes
+git commit                                            # complete merge
+```
+
+**Why:** Local branches may be outdated. Always use `origin/` refs after fetching to ensure you're merging the latest remote version.
