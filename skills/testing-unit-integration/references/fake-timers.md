@@ -231,6 +231,92 @@ it('should throw after max retries', async () => {
 });
 ```
 
+---
+
+## Retry Logic Testing Strategies
+
+When testing code with retry/backoff logic, choose the right approach:
+
+### When to Use Fake Timers for Retry Tests
+
+Use fake timers when:
+- Testing that retry succeeds eventually (happy path)
+- Testing retry count/timing behavior
+- Timer delays are the only async operation
+
+```typescript
+it('When transient failure then success, then retries and succeeds', async () => {
+  vi.useFakeTimers();
+
+  const mockFn = vi.fn()
+    .mockRejectedValueOnce(new Error('Network error'))
+    .mockRejectedValueOnce(new Error('Network error'))
+    .mockResolvedValueOnce({ data: 'success' });
+
+  const promise = retryWithBackoff(mockFn, { maxRetries: 3, delay: 1000 });
+  await vi.runAllTimersAsync();
+  const result = await promise;
+
+  expect(result.data).toBe('success');
+  expect(mockFn).toHaveBeenCalledTimes(3);
+});
+```
+
+### When to Use Real Timers with Short Delays
+
+Use real timers with 1ms delays when:
+- Testing that retries exhaust and throw
+- Testing error propagation after max retries
+- Avoiding "unhandled promise rejection" warnings
+
+```typescript
+it('When all retries fail, then throws final error', async () => {
+  vi.useRealTimers(); // Switch to real timers
+
+  const mockFn = vi.fn().mockRejectedValue(new Error('Permanent failure'));
+
+  // Use tiny delays - still tests behavior, but runs fast
+  const config = { maxRetries: 3, initialDelay: 1, maxDelay: 1 };
+
+  await expect(retryWithBackoff(mockFn, config)).rejects.toThrow('Permanent failure');
+  expect(mockFn).toHaveBeenCalledTimes(4); // Initial + 3 retries
+});
+```
+
+### Retry Test Decision Matrix
+
+| Scenario | Use Fake Timers? | Why |
+|----------|------------------|-----|
+| Retry succeeds after N attempts | Yes | `runAllTimersAsync` handles all delays |
+| Retry exhausts, throws error | **No** | Use real timers with 1ms delays to avoid rejection warnings |
+| Testing exact delay timing | Yes | Can assert specific delay amounts |
+| Testing with real network errors | **No** | Network mocking (nock) has its own timing |
+
+### Advanced: Testing Retry with Specific Delays
+
+```typescript
+it('When retry, then uses exponential backoff delays', async () => {
+  vi.useFakeTimers();
+
+  const mockFn = vi.fn()
+    .mockRejectedValueOnce(new Error('fail'))
+    .mockRejectedValueOnce(new Error('fail'))
+    .mockResolvedValueOnce('success');
+
+  const promise = retryWithBackoff(mockFn, { initialDelay: 100 });
+
+  // Verify first retry after 100ms
+  await vi.advanceTimersByTimeAsync(100);
+  expect(mockFn).toHaveBeenCalledTimes(2);
+
+  // Verify second retry after 200ms (exponential backoff)
+  await vi.advanceTimersByTimeAsync(200);
+  expect(mockFn).toHaveBeenCalledTimes(3);
+
+  await promise;
+});
+```
+
 ### Pattern: Testing Polling
 
 ```typescript

@@ -66,6 +66,8 @@ Choose options more likely to fail. Picking user role? Use least privileged one.
 - **B.23** Don't test implementation details - only user-facing behavior
 - **B.25** No time-based waiting (setTimeout, waitForTimeout)
 - **B.28** Clean up in beforeEach: mocks, env vars, localStorage, globals
+- **B.30** When fixing bugs: amend existing tests that SHOULD have caught it, don't just add new tests
+- **B.32** TDD Red phase: verify amended tests FAIL with buggy code before applying fix
 
 ## Section C - Test Data
 
@@ -121,6 +123,11 @@ expect(response).toEqual([{id: '123'}, {id: '456'}])
 - **E.5** Define mocks in test file (Arrange or beforeEach), never external files
 - **E.7** Reset all mocks in beforeEach
 - **E.9** Prefer network interception (MSW, Nock) over function mocks for HTTP
+- **E.11** Integration tests: use REAL router/navigation, only mock external APIs
+- **E.13** Never mock internal systems (routing, state management) in integration tests
+- **E.15** Integration tests need same rigor as unit tests - same patterns, same coverage
+
+**Cloud/External SDK mocking:** See [references/aws-sdk-mocking.md](references/aws-sdk-mocking.md) for AWS SDK patterns (also applicable to other cloud SDKs).
 
 ## Section F - DOM Testing
 
@@ -131,6 +138,17 @@ For React Testing Library, Playwright component tests, Storybook:
 - **F.5** Use framework's assertion mechanism (auto-retriable for Playwright)
 - **F.9** No waitForSelector - auto-retriable assertions handle waiting
 - **F.14** Don't assert on external systems - assert navigation happened
+- **F.16** Test user-VISIBLE state: checkbox checked/unchecked, badge text, button disabled - not just that element exists
+
+```typescript
+// ❌ BAD - Only checks element exists, not its state
+expect(screen.getByText('App Name')).toBeInTheDocument();
+
+// ✅ GOOD - Verifies actual user-visible state
+expect(screen.getByRole('checkbox', { name: /app name/i })).toBeChecked();
+expect(within(row).getByText(/associated/i)).toBeInTheDocument();
+expect(screen.getByRole('button', { name: /submit/i })).toBeDisabled();
+```
 
 ## Section G - Database Testing
 
@@ -184,6 +202,144 @@ await expect(retryWithBackoff(mockFn, config)).rejects.toThrow('fail');
 
 - **I.7** Extra mile: testing save? Use two items. Testing filter? Check excluded items too
 - **I.10** Deliberate fire: choose options more likely to fail (least privilege role)
+
+## Section J - Contract Testing
+
+When testing frontend-backend integration, validate contracts between layers.
+
+- **J.1** Never use `as never`, `as any`, `as unknown` on mock return values - defeats TypeScript safety
+- **J.3** Mocks must match ACTUAL API response structure (not idealized/fantasy data)
+- **J.5** Destructure responses in tests exactly as consumers will - catches property name mismatches
+- **J.7** Response property names must match TypeScript type definitions exactly
+- **J.9** Add runtime validation (Zod/io-ts) for API responses - TypeScript can't validate runtime HTTP
+
+```typescript
+// ❌ BAD - Type escape hatch hides contract mismatch
+vi.spyOn(api, 'create').mockResolvedValue(mockData as never);
+
+// ❌ BAD - Frontend mock doesn't match actual backend
+vi.mocked(api.create).mockResolvedValue({
+  application: data,  // Frontend WANTS this
+});
+// But backend ACTUALLY returns: { data: {...} }
+
+// ✅ GOOD - Mock matches actual backend response
+const mockResponse: CreateResponse = {
+  data: mockApp,  // Match ACTUAL backend
+  created: true,
+};
+vi.spyOn(api, 'create').mockResolvedValue(mockResponse);
+
+// ✅ GOOD - Destructure as consumers will (catches mismatches)
+const { application } = response;  // Will fail if backend uses 'data' not 'application'
+```
+
+## Section K - Mock Data Guidelines
+
+Mock data must reflect reality, not fantasy.
+
+- **K.1** Copy real API responses as fixtures - never invent structure from scratch
+- **K.3** Document fixture provenance: endpoint, date captured, backend version
+- **K.5** Type-check all fixtures against TypeScript interfaces
+- **K.7** Include edge cases in fixtures: empty arrays, null values, missing optional fields
+
+```typescript
+/**
+ * Real API response from: GET /api/users/123/applications
+ * Captured: 2025-12-04
+ * Backend version: server@1.2.3
+ *
+ * Update this fixture if backend changes response structure.
+ */
+export const REAL_USER_APP_MAPPING: UserAppMapping = {
+  _id: '',                    // Mapping ID (often empty)
+  applicationId: 'app-123',   // CRITICAL: This is the app ID!
+  isActiveForApp: true,
+  application: { /* ... */ }
+};
+
+// Edge case fixtures
+export const EDGE_CASES = {
+  emptyList: [],
+  nullField: { ...REAL_USER_APP_MAPPING, applicationId: null },
+  missingOptional: { _id: '', applicationId: 'app-1' },  // No 'application' field
+};
+```
+
+## Section L - Boolean Flag Testing
+
+Boolean flags in API responses control critical behavior - test both states.
+
+- **L.1** Test helper defaults can hide bugs - be aware of what defaults to true/false
+- **L.3** For every boolean flag in response, test BOTH true and false states
+- **L.5** Explicitly set boolean values in test data - never rely on helper defaults
+- **L.7** Add `@warning` JSDoc to helpers with dangerous defaults that could mask bugs
+
+```typescript
+// ❌ BAD - Only tests one state (default true)
+const mappings = [
+  createMapping({ applicationId: 'app1' })  // isActiveForApp defaults to true
+];
+
+// ✅ GOOD - Tests both states explicitly
+const mappings = [
+  createMapping({ applicationId: 'app1', isActiveForApp: true }),   // Active
+  createMapping({ applicationId: 'app2', isActiveForApp: false }),  // Inactive
+];
+
+// ✅ GOOD - Document dangerous defaults
+/**
+ * @warning The default `isActiveForApp` is TRUE. When testing inactive
+ * associations, you MUST explicitly set `isActiveForApp: false`.
+ * Forgetting this will cause tests to show associations as active
+ * when they should be inactive.
+ */
+export function createMapping(overrides: Partial<Mapping> = {}): Mapping {
+  return {
+    isActiveForApp: true,  // Dangerous default - document it!
+    ...overrides,
+  };
+}
+```
+
+## Section M - Error Handling Testing
+
+Test error scenarios with correct HTTP semantics - 404 is NOT 503.
+
+- **M.1** Map HTTP status to correct error type: 404→NotFoundError, 401→UnauthorizedError, 403→ForbiddenError, 5xx→ServiceUnavailableError
+- **M.3** One test per error scenario - don't combine different error types
+- **M.5** Validate error messages contain context (resource name, IDs)
+- **M.7** Test error propagation through layers (HTTP client → Service → Controller)
+- **M.9** Test business requirements, not implementation - ask "what SHOULD happen?"
+- **M.11** No generic assertions - `rejects.toThrow()` needs error type, not just any error
+
+**Detailed guide:** See [references/error-handling-matrix.md](references/error-handling-matrix.md) for HTTP status mapping and test patterns.
+
+```typescript
+// ❌ BAD - Wrong error mapping (404 is NOT service unavailable)
+it('When user not found, then throws ServiceUnavailableError', async () => {
+  nock(API_URL).get('/user/123').reply(404);
+  await expect(service.getUser('123')).rejects.toThrow(ServiceUnavailableError);
+});
+
+// ❌ BAD - Generic assertion (any error passes)
+await expect(service.getUser('123')).rejects.toThrow();
+
+// ✅ GOOD - Correct error type for HTTP 404
+it('When user not found (404), then throws NotFoundError', async () => {
+  nock(API_URL).get('/user/123').reply(404, { message: 'User not found' });
+
+  await expect(service.getUser('123')).rejects.toThrow(NotFoundError);
+  await expect(service.getUser('123')).rejects.toThrow(/user.*not found/i);
+});
+
+// ✅ GOOD - Test both error type AND message context
+it('When unauthorized (401), then throws UnauthorizedError with context', async () => {
+  nock(API_URL).get('/user/123').reply(401);
+
+  await expect(service.getUser('123')).rejects.toThrow(UnauthorizedError);
+});
+```
 
 ## Maximum Coverage, Minimal Tests
 

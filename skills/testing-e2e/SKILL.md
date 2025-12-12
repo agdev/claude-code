@@ -106,6 +106,43 @@ expect(response.length).toBe(2)
 expect(response).toEqual([{id: '123'}, {id: '456'}])
 ```
 
+## Navigation Testing
+
+E2E tests catch navigation bugs that mocked unit/integration tests miss.
+
+- **A.50** Assert navigation OUTCOME (destination page renders), not that navigate() was called
+- **A.52** Test router config must match production router - use real routes, not mocked
+- **A.54** Use route constants, not hardcoded path strings - prevents typos and drift
+- **A.56** Verify URL changed to expected value after navigation actions
+- **A.58** E2E tests are the safety net - they catch contract and navigation bugs that mocked tests miss
+
+```typescript
+// ❌ BAD - Testing that navigate function was called (implementation detail)
+expect(mockNavigate).toHaveBeenCalledWith('/users/123');
+
+// ❌ BAD - Hardcoded path string (typos won't be caught)
+await page.goto('/usres/123');  // Typo! Would fail silently in unit test
+
+// ✅ GOOD - Assert the OUTCOME (user sees the page)
+await expect(page.getByRole('heading', { name: /user profile/i })).toBeVisible();
+
+// ✅ GOOD - Verify URL changed
+await expect(page).toHaveURL(/\/users\/\d+/);
+
+// ✅ GOOD - Use route constants (from shared constants file)
+import { ROUTES } from '@/constants/routes';
+await page.goto(ROUTES.USER_PROFILE.replace(':id', '123'));
+```
+
+### Why E2E Catches What Unit Tests Miss
+
+| Bug Type | Unit Test (Mocked) | E2E Test |
+|----------|-------------------|----------|
+| Route typo in navigate('/usres') | ❌ Passes (mock doesn't validate) | ✅ Fails (404 page) |
+| Route param mismatch (email vs id) | ❌ Passes (mock accepts anything) | ✅ Fails (wrong page loads) |
+| Missing route in router config | ❌ Passes (mock doesn't use router) | ✅ Fails (404 or error) |
+| Backend contract change | ❌ Passes (mock returns fantasy data) | ✅ Fails (real API different) |
+
 ## Maximum Coverage, Minimal Tests
 
 E2E tests are expensive - maximize value per test:
