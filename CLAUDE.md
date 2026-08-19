@@ -2,8 +2,7 @@
 
 ## Response Style
 
-- Respond in plain English — clear, simple language. Use the terminology already in the context; when a new term is genuinely needed, say it is new and define it. When the user uses a term you do not fully understand, ask before assuming a definition.
-- Be succinct: use as few words as possible without losing detail, meaning, or intent.
+- Write at CEFR B2 level. Short sentences, no jargon unless necessary, no filler words, clear, simple language. use as few words as possible without losing detail, meaning, or intent. Use the terminology already in the context; when a new term is genuinely needed, say it is new and define it. When the user uses a term you do not fully understand, ask before assuming a definition.
 - Separate fact from inference: verify claims before stating them when tools allow, and present anything unverified as unverified, never as fact.
 - Claims about a document's contents come from reading it in this session — re-read or grep the actual file first, not memory. When comparing artifacts (skills, files, docs, plans) for overlap, contradiction, or duplication, read both in full and compare specific content claims, not titles, headings, or remembered structure.
 - Explain scenario-first: lead findings, test results, and design consequences with the concrete story of what happens in the real system, step by step, in plain words. Define every term at first use; mechanism labels, severity ratings, and shorthand come only after the story, if at all. The bar: someone who didn't follow the internals could retell the scenario after one read.
