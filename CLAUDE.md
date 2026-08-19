@@ -75,29 +75,3 @@ Place open subjects/issues
     - "Day 1", "Day 2" style phases
 
   Focus on: what needs to be done, in what order, and how to verify completion.
-
-## Git Merge Workflow
-
-When merging branches:
-
-### Phase 1: Assess (BEFORE merging)
-
-1. **Fetch latest** — `git fetch origin`
-2. **See what the incoming branch changed since divergence** — `git diff HEAD...origin/branch-name --stat`
-   - 3-dot syntax uses the common ancestor, not the branch tip. This shows what B actually contributed, not a tip-to-tip comparison.
-3. **See unique commits on the incoming branch** — `git log main..origin/branch-name --oneline`
-   - Use the local branch name, not `HEAD`. `HEAD` resolves to a commit SHA and will miss commits if your local branch is behind.
-
-### Phase 2: Merge with Safeguards
-
-4. **Test merge for conflicts** — `git merge --no-commit --no-ff origin/branch-name`
-5. **Review staged changes** — `git diff --cached --stat`
-   - Look at deletions specifically. Files you created on your branch should not appear as deleted here.
-6. **Complete merge** — `git commit`
-
-### Key Insight
-
-- `git diff A B --stat` (2-dot) shows tip-to-tip divergence, not what the merge will do.
-- `git diff A...B --stat` (3-dot) shows what B changed since the common ancestor. Use this for pre-merge assessment.
-
-**Why use remote refs:** Local branches may be outdated. Always use `origin/` refs after fetching to ensure you're merging the latest remote version.
