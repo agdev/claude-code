@@ -36,6 +36,10 @@ Place ongoing reference material in appropriate subcategory:
 
 Place ongoing lessons that you learned
 
+#### Research (`claude-code-docs/research/`)
+
+Place research that you did
+
 #### Open Subjects (`claude-code-docs/open-subjects/`)
 
 Place open subjects/issues
