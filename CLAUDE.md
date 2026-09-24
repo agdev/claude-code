@@ -11,6 +11,10 @@
 
 - Use Brave Search MCP tools (`mcp__brave-search__*`, e.g. `brave_web_search`) for all web searches and research. Fall back to the built-in WebSearch tool only if Brave Search is unavailable or fails.
 
+## Shell
+
+- The Bash working directory persists across tool calls — never use a bare `cd`; use absolute paths and `git -C <absolute-path>`, so a directory change in one call cannot break the next.
+
 ## Workspace Folders
 
 ### Scratch & Working Folders
