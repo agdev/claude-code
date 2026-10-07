@@ -82,3 +82,28 @@ Place open subjects/issues
     - "Day 1", "Day 2" style phases
 
   Focus on: what needs to be done, in what order, and how to verify completion.
+
+## Delegation-First Workflow
+
+Keep the main session context clean. The main session is a **command center** — it coordinates, decides, and communicates with the user. Heavy lifting goes to subagents.
+
+### Always Delegate
+
+- **Codebase exploration** — use Explore agents for any research touching more than 1 file
+- **Code reviews** — use code-reviewer agents, never review inline
+- **Verification & testing** — delegate compile checks, lint, test runs to agents
+- **Debugging investigation** — use debugger agents for root cause analysis
+- **Plan/task file updates** — never update plan or task files directly in main session
+- **Multi-file edits** — when changing more than 1 file, delegate to implementation agents
+
+### Keep in Main Session
+
+- User interaction and decisions
+- Single-file read when you know the exact path and need it for an immediate decision
+- Simple, confident single-file edit
+- Coordinating and sequencing subagent work
+- Summarizing agent results back to the user
+
+### Parallel by Default
+
+When delegating 2+ independent tasks, **always launch agents in parallel** (single message, multiple tool calls). Sequential delegation wastes time when tasks don't depend on each other.
