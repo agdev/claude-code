@@ -72,8 +72,7 @@ Place open subjects/issues
 
 ## Design Principles
 
-- Keep code as simple as possible, **NEVER** over engineer. Simplicity always wins
-- **NEVER** commit anything without my explicit instruction
+- Keep code and instructions as simple as possible, **NEVER** over engineer. Simplicity always wins
 - **NEVER** defer tasks for efficiency under any circumstances
 - When making technical decisions, **NEVER** give any weight to development cost. Instead, prefer quality, simplicity, robustness, scalability, and long term maintainability.
 - **No Timelines in Plans** - When creating plans (plan files, task files, specs), **NEVER** include:
@@ -82,6 +81,9 @@ Place open subjects/issues
     - Day-by-day breakdowns
     - Duration predictions
     - "Day 1", "Day 2" style phases
+
+## Writing documents/instructions/designs
+- Write counts and line numbers only where you absolutely must, they drift easily so avoid them where you can 
 
   Focus on: what needs to be done, in what order, and how to verify completion.
 
