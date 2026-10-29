@@ -78,6 +78,7 @@ Place open subjects/issues
 - Keep code and instructions as simple as possible, **NEVER** over engineer. Simplicity always wins
 - **NEVER** defer tasks for efficiency under any circumstances
 - When making technical decisions, **NEVER** give any weight to development cost. Instead, prefer quality, simplicity, robustness, scalability, and long term maintainability.
+- Before any change goes in (mine, an agent's, or an option offered to me), check what else it touches against what is already decided.
 - **No Timelines in Plans** - When creating plans (plan files, task files, specs), **NEVER** include:
     - Timeline sections
     - Time estimates
